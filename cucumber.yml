@@ -1,3 +1,17 @@
-default: --format pretty
-html: -f html -o reportes/reporte.html -p default
-regresion: -t @regresion -p html
+#default: --format pretty
+#html: -f html -o reportes/reporte.html -p default
+#regresion: -t @regresion -p html
+
+
+
+default: -p html report_name=all
+html: -f html -o test/report/reporte.html --format pretty
+regresion: -t @r -p html report_name=Regresion
+
+
+credenciales: -t @credenciales -p html report_name=credenciales
+iniciar_browser: -t @iniciar_browser -p html report_name=iniciar_browser
+
+
+20288463213: -t @20288463213 -p html report_name=20288463213
+27148533070: -t @27148533070 -p html report name=27148533070
