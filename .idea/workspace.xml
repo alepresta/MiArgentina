@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Login_qa/step_definitions/Tarjetas_credenciales.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/Login_qa/step_definitions/Tarjetas_credenciales.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="Tarjetas_credenciales.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/Login_qa/step_definitions/Tarjetas_credenciales.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="177">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -59,11 +59,19 @@
       <find>int</find>
       <find>Rodrigo Martin Lista</find>
       <find>Leticia Emilse Lista</find>
+      <find>cuil</find>
+      <find>cud</find>
+      <find>Breadcrumb</find>
     </findStrings>
     <replaceStrings>
       <replace>cuit</replace>
       <replace>Leticia Emilse Lista</replace>
       <replace>Rodrigo Martin Lista</replace>
+      <replace>cuil</replace>
+      <replace>cud</replace>
+      <replace>Breadcrumb</replace>
+      <replace>breadcrumb</replace>
+      <replace>cyan</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -90,8 +98,8 @@
         <option value="$PROJECT_DIR$/features/Login_prod/step_definitions/20288463213.rb" />
         <option value="$PROJECT_DIR$/features/Login_qa/features/tarjetas_credenciales.feature" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
-        <option value="$PROJECT_DIR$/features/Login_qa/step_definitions/Tarjetas_credenciales.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/features/Login_qa/step_definitions/Tarjetas_credenciales.rb" />
       </list>
     </option>
   </component>
@@ -334,7 +342,7 @@
       <workItem from="1525703822360" duration="6469000" />
       <workItem from="1525717667791" duration="3103000" />
       <workItem from="1525777246620" duration="11925000" />
-      <workItem from="1525792587196" duration="6232000" />
+      <workItem from="1525792587196" duration="8442000" />
     </task>
     <servers />
   </component>
@@ -344,7 +352,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36584000" />
+    <option name="totallyTimeSpent" value="38794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="957" height="743" extended-state="6" />
@@ -624,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Login_qa/step_definitions/Tarjetas_credenciales.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="177">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
         </state>
       </provider>
     </entry>
