@@ -36,12 +36,13 @@ Then /^Intentando continuar el proceso ,seleccionando el botón ingresar contras
 end
 
 Then /^Verificando el ingreso al sistema con el usuario Rodrigo Martin Lista CUIT 20288463213$/ do
-  nombre_de_clase = @browser.find_element(:class_name, "m-b-0")
+  nombre_de_clase = @browser.find_element(:xpath, "/html/body/main/section[1]/div[2]/div/h1")
   txtesto =  nombre_de_clase.text
+  puts txtesto
   if txtesto.include? "Rodrigo Martin Lista"
     puts "El ingreso para Rodrigo Martin Lista es correcto".green
   else
     fail puts "El ingreso para Rodrigo Martin Lista es incorrecto".red
   end
-  miArgentina_cerrar
+  #miArgentina_cerrar
 end
