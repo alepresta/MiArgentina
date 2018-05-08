@@ -4,3 +4,16 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+
+
+
+require 'rubygems'
+require 'cucumber'
+require 'cucumber/rake/task'
+
+Cucumber::Rake::Task.new(:features) do |t|
+  t.profile = 'default'
+end
+
+task :default => :features
