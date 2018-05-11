@@ -31,8 +31,7 @@ end
 
 
 Then /^Verificando textos de la parte superior$/ do
-  # do something :class   m-b-2
-  # /html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a
+  line
   salud_menu = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
   salud_menu.click
   txto_salud_top = @browser.find_element(:xpath, '//*[@id="main-content"]/p[1]')
@@ -47,12 +46,13 @@ Then /^Verificando textos de la parte superior$/ do
     puts txto_salud_top.text
     puts fail "error".red
   end
+  line
 end
+
 Then /^Verificando que se muestra la tarjeta Vacunas$/ do
-  # do something
-  # /html/body/main/section[2]/div/div/div/div[1]/div/div/div[2]/html/body/main/section[2]/div/div/div/div[1]/div/div/div[2]
- tarjeta_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
- tarjeta_vacunas = tarjeta_vacunas.text
+  line
+  tarjeta_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
+  tarjeta_vacunas = tarjeta_vacunas.text
   if tarjeta_vacunas==nil
     puts fail"Tarjeta de Vacunas nula".red
   elsif tarjeta_vacunas==''
@@ -60,10 +60,76 @@ Then /^Verificando que se muestra la tarjeta Vacunas$/ do
   else
     puts "Tarjeta de Vacunas con datos "+"["+tarjeta_vacunas.slice(0,90)+"]......[PASSED]".cyan
   end
+  line
 end
 
-Given /^Intentando ingresar a QA con usuario DONANTE de órganos y tejidos$/ do
+
+Then /^Verificando que se muestra la tarjeta Donación de órganos y tejido$/ do
+  line
+  tarjeta_donante_de_organos = @browser.find_element(:xpath, '//*[@id="main-content"]/div[1]/div[1]')
+  tarjeta_donante_de_organos = tarjeta_donante_de_organos.text
+  if tarjeta_donante_de_organos==nil
+    puts fail"Tarjeta de Donación de órganos y tejidos nula".red
+  elsif tarjeta_donante_de_organos==''
+    puts fail "Tarjeta de Donación de órganos y tejidos vacía".red
+  else
+    puts "Tarjeta de Donación de órganos y tejidos con datos "+"["+tarjeta_donante_de_organos.slice(0,90)+"]......[PASSED]".cyan
+  end
+  line
+end
+
+Then /^Verificando que se muestra la tarjeta Donación de Médula ósea$/ do
+  line
+  tarjeta_donacion_de_medula = @browser.find_element(:xpath, '//*[@id="main-content"]/div[1]/div[1]')
+  tarjeta_donacion_de_medula = tarjeta_donacion_de_medula.text
+  if tarjeta_donacion_de_medula==nil
+    puts fail"Tarjeta de Donación de Médula ósea nula".red
+  elsif tarjeta_donacion_de_medula==''
+    puts fail "Tarjeta de Donación de Médula ósea vacía".red
+  else
+    puts "Tarjeta de Donación de Médula ósea con datos "+"["+tarjeta_donacion_de_medula.slice(0,90)+"]......[PASSED]".cyan
+  end
+  line
+end
+
+Then /^Verificando que se muestra la tarjeta Te puede interesar$/ do
+  line
+  tarjeta_te_puede_interesar = @browser.find_element(:xpath, '//*[@id="main-content"]/div[2]/div')
+  tarjeta_te_puede_interesar = tarjeta_te_puede_interesar.text
+  if tarjeta_te_puede_interesar==nil
+    puts fail"Tarjeta Te puede interesar nula".red
+  elsif tarjeta_te_puede_interesar==''
+    puts fail "Tarjeta Te puede interesar vacía".red
+  else
+    puts "Tarjeta Te puede interesar con datos "+"["+tarjeta_te_puede_interesar.slice(0,90)+"]......[PASSED]".cyan
+  end
+  line
+end
+
+Then /^Verificando la existencia del Breadcrumb$/ do
   # do something
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Given /^Intentando ingresar a QA con usuario DONANTE de órganos y tejidos$/ do
+
 end
 
 
@@ -149,22 +215,6 @@ end
 
 
 
-Then /^Verificando que se muestra la tarjeta Donación de órganos y tejido$/ do
-  # do something
-end
-
-Then /^Verificando que se muestra la tarjeta Donación de Médula ósea$/ do
-  # do something
-end
-
-Then /^Verificando que se muestra la tarjeta Te puede interesar$/ do
-  # do something
-end
-
-Then /^Verificando la existencia del Breadcrumb$/ do
-  # do something
-
-end
 
 Then /^verificando texto Mujer Estás embarazada o durante el puerperio$/ do
   # do something

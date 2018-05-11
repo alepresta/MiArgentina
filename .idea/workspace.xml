@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/features/Login_qa/features/salud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Login_qa/features/salud.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/Login_qa/step_definitions/salud.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/Login_qa/step_definitions/salud.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="salud.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/Login_qa/step_definitions/salud.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+            <state relative-caret-position="248">
+              <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -84,6 +82,7 @@
       <find>Breadcrumb</find>
       <find>light_blue</find>
       <find>cuit</find>
+      <find>tarjeta_donacion_de_medula</find>
     </findStrings>
     <replaceStrings>
       <replace>cuit</replace>
@@ -95,6 +94,9 @@
       <replace>breadcrumb</replace>
       <replace>cyan</replace>
       <replace>cuit_27148533070</replace>
+      <replace>tarjeta_donante_de_organos</replace>
+      <replace>tarjeta_donacion_de_medula</replace>
+      <replace>tarjeta_te_puede_interesar</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -209,6 +211,11 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
@@ -407,7 +414,7 @@
       <workItem from="1525870636600" duration="290000" />
       <workItem from="1526037112628" duration="1273000" />
       <workItem from="1526040767646" duration="1733000" />
-      <workItem from="1526047205177" duration="9183000" />
+      <workItem from="1526047205177" duration="11403000" />
     </task>
     <servers />
   </component>
@@ -417,7 +424,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53311000" />
+    <option name="totallyTimeSpent" value="55531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="957" height="743" extended-state="6" />
@@ -702,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Login_qa/step_definitions/salud.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+        <state relative-caret-position="248">
+          <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
         </state>
       </provider>
     </entry>
