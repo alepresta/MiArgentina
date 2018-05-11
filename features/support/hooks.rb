@@ -1,25 +1,29 @@
 
 Before do
   # Actions before each step execution
-
   $browser ||= Selenium::WebDriver.for :firefox
   @browser = $browser
   @browser.manage.timeouts.implicit_wait=5
   @browser.manage.timeouts.page_load=60
-
-
-  #browser =Selenium::WebDriver.for :firefox
-  #browser_MiArgentina
-  #browser.get "https://id.argentina.gob.ar/"
-
-
-
-
 end
 
+=begin
+
+Before('@clean_session') do
+  @browser.manage.cookies.delete_all_cookies
+end
+Before('@GUI') do
+end
 After do
-  # Actions after each scenario execution
 end
+After('@GUI') do
+end
+After('@limpiar_entradas') do
+end
+=end
+
+
+
 
 at_exit do
   fecha, hora = Time.now.strftime('%Y-%m-%d--%H-%M-%S').split("--")
