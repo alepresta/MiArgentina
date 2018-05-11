@@ -22,6 +22,9 @@ CASO PRUEBA "LOGIN PROD":
 CASO PRUEBA "TARJETA CREDENCIALES":
 * cucumber -t, --tags @credenciales
 
+CASO PRUEBA "SALUD"
+* cucumber -t, --tags @salud
+
 
 
 
