@@ -25,7 +25,11 @@ CASO PRUEBA "TARJETA CREDENCIALES":
 CASO PRUEBA "SALUD"
 * cucumber -t, --tags @salud
 
+CASO PRUEBA "Vacunas"
+* cucumber -t, --tags @vacunas
 
+CASO PRUEBA "@donacion_organos"
+* cucumber -t, --tags @donacion_organos
 
 
 

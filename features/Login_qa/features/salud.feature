@@ -17,14 +17,14 @@ Feature: SALUD
     Then Verificando que se muestra la tarjeta Donación de Médula ósea
     Then Verificando que se muestra la tarjeta Te puede interesar
     Then Verificando la existencia del Breadcrumb
-
+@vacunas @salud
   Scenario: SALUD Tarjeta Vacunas
     Given Intentando ingresar a QA con la usuario Mujer
     Then verificando texto Mujer Estás embarazada o durante el puerperio
     Given Intentando ingresar a QA con usuario HOMBRE
     Then verificando texto Hombre no debe estar Estás embarazada o durante el puerperio
     Then verificando los textos en general de la tarjeta Vacunas en QA
-
+@donacion_organos @salud
   Scenario: SALUD Tarjeta DONACIÓN DE ÓRGANOS y TEJIDOS
     Given Intentando ingresar a QA con usuario DONANTE de órganos y tejidos
     Then Verificando la tarjeta Donación de órganos y tejidos con usuario DONANTE
@@ -32,14 +32,14 @@ Feature: SALUD
     Then Verificando la tarjeta Donación de órganos y tejidos con usuario NO DONANTE
     Then Verificando el formulario para expresar la voluntad de donar
     Then Verificando SERVICIO NO DISPONIBLE para la tarjeta Donación de órganos y tejidos
-
+  @salud
   Scenario: SALUD Tarjeta Donación de Médula Ósea
     Given Intentando ingresar a QA con usuario DONANTE de médula ósea
     Then Verificando la tarjeta Donación de médula ósea con usuario DONANTE
     Given Intentando ingresar a QA con usuario NO DONANTE de médula ósea
     Then Verificando la tarjeta Donación de médula ósea con usuario NO DONANTE
     Then Verificando SERVICIO NO DISPONIBLE para la tarjeta médula ósea
-
+  @salud
   Scenario: SALUD Tarjeta Te puede interesar
     Given Intentando ingresar a QA con la usuario Leticia Emilse CUIL 27-14853307-0
     Then Verificando textos y links de la tarjeta te puede interesar

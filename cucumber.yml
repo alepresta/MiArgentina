@@ -8,3 +8,5 @@ credenciales: -t @credenciales -p html report_name=credenciales
 20288463213: -t @20288463213 -p html report_name=20288463213
 27148533070: -t @27148533070 -p html report name=27148533070
 salud: -t @salud -p html report name=salud
+vacunas: -t @vacunas -p html report name=vacunas
+donacion_organos: -t @donacion_organos -p html report=donacion_organos

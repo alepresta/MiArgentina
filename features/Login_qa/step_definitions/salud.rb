@@ -2,6 +2,11 @@ cuit_27148533070 = 27148533070
 psw_27148533070 = "modernizacion"
 cuit_20110219831 = 20110219831
 psw_20110219831 = "modernizacion"
+cuit_20258489749 = 20258489749  #NO DONANTE ORGANOS Y TEJIDOS
+psw_20258489749 = "modernizacion"
+cuit_20288463213 = 20288463213  # DONANTE  ORGANOS Y TEJIDOS
+psw_20288463213 = "modernizacion"
+
 Given /^Intentando ingresar a QA con la usuario Leticia Emilse CUIL 27-14853307-0$/ do
   line
   browser_MiArgentina_qa
@@ -107,40 +112,20 @@ Then /^Verificando que se muestra la tarjeta Te puede interesar$/ do
 end
 
 Then /^Verificando la existencia del Breadcrumb$/ do
-  # do something
-
+  line
+  breadcrumb = @browser.find_element(:xpath, '/html/body/main/section[1]/div[1]/div/div/div/ol')
+  breadcrumb = breadcrumb.text
+  if breadcrumb.include? "Salud"
+    puts "el breadcrumb existe y es #{breadcrumb} .....[PASSED]".cyan
+  else
+    puts fail "el breadcrumb NO existe y es #{breadcrumb}".red
+  end
+  line
+  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+  deslogueo.click
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Given /^Intentando ingresar a QA con usuario DONANTE de órganos y tejidos$/ do
-
-end
-
-
-
-
-
-
-
-
-
-
+####################################################################################################################
 
 
 Given /^Intentando ingresar a QA con la usuario Mujer$/ do
@@ -168,8 +153,25 @@ Given /^Intentando ingresar a QA con la usuario Mujer$/ do
     fail puts "El ingreso para Leticia Emilse Lista es incorrecto".red
   end
   line
-  miArgentina_cerrar
 end
+
+Then /^verificando texto Mujer Estás embarazada o durante el puerperio$/ do
+  salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+  salud_menu1.click
+  line
+  tarjeta_d_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
+  tarjeta_d_vacunas = tarjeta_d_vacunas.text
+
+  if tarjeta_d_vacunas.include? "¿Estás embarazada o tuviste un bebé en los últimos 10 días?"
+    puts "se encuentra el texto ¿Estás embarazada o tuviste un bebé en los últimos 10 días?\n "+"["+tarjeta_d_vacunas.slice(0,250)+"]......[PASSED]".cyan
+  else
+    puts fail "Tarjeta de Vacunas nula".red
+  end
+  line
+  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+  deslogueo.click
+end
+
 
 Given /^Intentando ingresar a QA con usuario HOMBRE$/ do
   line
@@ -190,46 +192,101 @@ Given /^Intentando ingresar a QA con usuario HOMBRE$/ do
   nombre_de_clase = @browser.find_element(:class_name, "m-b-0")
   txtesto =  nombre_de_clase.text
   puts txtesto
-  if txtesto.include? "Leticia Emilse Lista"
-    puts "El ingreso para Leticia Emilse Lista es correcto\"......[PASSED]".cyan
+  if txtesto.include? "Juan Domingo Lista"
+    puts "El ingreso para Juan Domingo Lista es correcto\"......[PASSED]".cyan
   else
-    fail puts "El ingreso para Leticia Emilse Lista es incorrecto".red
+    fail puts "El ingreso para Juan Domingo Lista es incorrecto".red
   end
   line
-  miArgentina_cerrar
+
+
 end
-
-
-
-Given /^Intentando ingresar a QA con usuario NO DONANTE de órganos y tejidos$/ do
-  # do something
-end
-
-Given /^Intentando ingresar a QA con usuario DONANTE de médula ósea$/ do
-  # do something
-end
-
-Given /^Intentando ingresar a QA con usuario NO DONANTE de médula ósea$/ do
-  # do something
-end
-
-
-
-
-Then /^verificando texto Mujer Estás embarazada o durante el puerperio$/ do
-  # do something
-end
-
 Then /^verificando texto Hombre no debe estar Estás embarazada o durante el puerperio$/ do
-  # do something
+  salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+  salud_menu1.click
+  line
+  tarjeta_d_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
+  tarjeta_d_vacunas = tarjeta_d_vacunas.text
+
+  if tarjeta_d_vacunas.include? "¿Estás embarazada o tuviste un bebé en los últimos 10 días?"
+    puts fail "Tarjeta de Vacunas nula".red
+  else
+    puts "se encuentra el texto ¿Estás embarazada o tuviste un bebé en los últimos 10 días?\n "+"["+tarjeta_d_vacunas.slice(0,250)+"]......[PASSED]".cyan
+  end
+  line
 end
 
 Then /^verificando los textos en general de la tarjeta Vacunas en QA$/ do
-  # do something
+  line
+  puts "ok.....[PASSED]".cyan
+  line
+  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+  deslogueo.click
 end
+################################################################################################################
+
+Given /^Intentando ingresar a QA con usuario DONANTE de órganos y tejidos$/ do
+  line
+  browser_MiArgentina_qa
+  puts "Se valida el acceso a \"https://id.argentina.gob.ar\"......[PASSED]".cyan
+  usuario = @browser.find_element(:id, 'id_number')
+  usuario.send_keys cuit_20288463213
+  puts "Se valida el ingreso del CUIL \"......[PASSED]".cyan
+  continuar =  @browser.find_element(:class, "loginCuilSession")
+  continuar.click
+  puts "Se valida que se puede CONTINUAR proceso\"......[PASSED]".cyan
+  contrasena = @browser.find_element(:id, 'id_number')
+  contrasena.send_keys psw_20288463213
+  puts "Se valida el ingreso de la contraseña \"......[PASSED]".cyan
+  continuado =  @browser.find_element(:class, "loginCuilSession")
+  continuado.click
+  puts "Se valida que funciona el botón CONTINUAR\"......[PASSED]".cyan
+  nombre_de_clase = @browser.find_element(:class_name, "m-b-0")
+  txtesto =  nombre_de_clase.text
+  puts txtesto
+  if txtesto.include? "Rodrigo Martin Lista"
+    puts "El ingreso para Rodrigo Martin Lista es correcto\"......[PASSED]".cyan
+  else
+    fail puts "El ingreso para Rodrigo Martin Lista es incorrecto".red
+  end
+  line
+  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+  deslogueo.click
+end
+
 
 Then /^Verificando la tarjeta Donación de órganos y tejidos con usuario DONANTE$/ do
   # do something
+end
+
+
+Given /^Intentando ingresar a QA con usuario NO DONANTE de órganos y tejidos$/ do
+  line
+  browser_MiArgentina_qa
+  puts "Se valida el acceso a \"https://id.argentina.gob.ar\"......[PASSED]".cyan
+  usuario = @browser.find_element(:id, 'id_number')
+  usuario.send_keys cuit_20258489749
+  puts "Se valida el ingreso del CUIL \"......[PASSED]".cyan
+  continuar =  @browser.find_element(:class, "loginCuilSession")
+  continuar.click
+  puts "Se valida que se puede CONTINUAR proceso\"......[PASSED]".cyan
+  contrasena = @browser.find_element(:id, 'id_number')
+  contrasena.send_keys psw_20258489749
+  puts "Se valida el ingreso de la contraseña \"......[PASSED]".cyan
+  continuado =  @browser.find_element(:class, "loginCuilSession")
+  continuado.click
+  puts "Se valida que funciona el botón CONTINUAR\"......[PASSED]".cyan
+  nombre_de_clase = @browser.find_element(:class_name, "m-b-0")
+  txtesto =  nombre_de_clase.text
+  puts txtesto
+  if txtesto.include? "Antonella Melisa Lista"
+    puts "El ingreso para Antonella Melisa Lista es correcto\"......[PASSED]".cyan
+  else
+    fail puts "El ingreso para Antonella Melisa Lista es incorrecto".red
+  end
+  line
+  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+  deslogueo.click
 end
 
 Then /^Verificando la tarjeta Donación de órganos y tejidos con usuario NO DONANTE$/ do
@@ -244,7 +301,20 @@ Then /^Verificando SERVICIO NO DISPONIBLE para la tarjeta Donación de órganos 
   # do something
 end
 
+##############################################################################################################
+
+
+
+Given /^Intentando ingresar a QA con usuario DONANTE de médula ósea$/ do
+  # do something
+end
+
 Then /^Verificando la tarjeta Donación de médula ósea con usuario DONANTE$/ do
+  # do something
+end
+
+
+Given /^Intentando ingresar a QA con usuario NO DONANTE de médula ósea$/ do
   # do something
 end
 
@@ -255,6 +325,9 @@ end
 Then /^Verificando SERVICIO NO DISPONIBLE para la tarjeta médula ósea$/ do
   # do something
 end
+
+
+###############################################################################################################
 
 Then /^Verificando textos y links de la tarjeta te puede interesar$/ do
   # do something
