@@ -1,10 +1,10 @@
-cuit_27148533070 = 27148533070
+cuit_27148533070 = 27148533070  #  "Leticia Emilse	Lista" con todas las CREDENCIALES
 psw_27148533070 = "modernizacion"
-cuit_20110219831 = 20110219831
+cuit_20110219831 = 20110219831  # "Juan Domingo	Lista" HOMBRE
 psw_20110219831 = "modernizacion"
-cuit_20258489749 = 20258489749  #NO DONANTE ORGANOS Y TEJIDOS
+cuit_20258489749 = 20258489749  # NO DONANTE ORGANOS Y TEJIDOS  "Antonella Melisa	Lista"
 psw_20258489749 = "modernizacion"
-cuit_20288463213 = 20288463213  # DONANTE  ORGANOS Y TEJIDOS
+cuit_20288463213 = 20288463213  # DONANTE  ORGANOS Y TEJIDOS  "Rodrigo Martin	Lista"
 psw_20288463213 = "modernizacion"
 
 Given /^Intentando ingresar a QA con la usuario Leticia Emilse CUIL 27-14853307-0$/ do
@@ -36,9 +36,16 @@ end
 
 
 Then /^Verificando textos de la parte superior$/ do
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    salud_menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[5]/a')
+    salud_menu_980px.click
+  else
+    salud_menu = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+    salud_menu.click
+  end
   line
-  salud_menu = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
-  salud_menu.click
   txto_salud_top = @browser.find_element(:xpath, '//*[@id="main-content"]/p[1]')
   texto_salud_tope = 'Encontrá recomendaciones para cuidar tu salud y prevenir enfermedades. Completá tu perfil para recibir notificaciones personalizadas.'
   if texto_salud_tope.include? txto_salud_top.text
@@ -56,6 +63,8 @@ end
 
 Then /^Verificando que se muestra la tarjeta Vacunas$/ do
   line
+
+
   tarjeta_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
   tarjeta_vacunas = tarjeta_vacunas.text
   if tarjeta_vacunas==nil
@@ -121,8 +130,15 @@ Then /^Verificando la existencia del Breadcrumb$/ do
     puts fail "el breadcrumb NO existe y es #{breadcrumb}".red
   end
   line
-  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
-  deslogueo.click
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    deslogueo_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[9]/a')
+    deslogueo_980px.click
+  else
+    deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+    deslogueo.click
+  end
 end
 
 ####################################################################################################################
@@ -156,8 +172,15 @@ Given /^Intentando ingresar a QA con la usuario Mujer$/ do
 end
 
 Then /^verificando texto Mujer Estás embarazada o durante el puerperio$/ do
-  salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
-  salud_menu1.click
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    salud_menu1_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[5]/a')
+    salud_menu1_980px.click
+  else
+    salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+    salud_menu1.click
+  end
   line
   tarjeta_d_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
   tarjeta_d_vacunas = tarjeta_d_vacunas.text
@@ -168,8 +191,15 @@ Then /^verificando texto Mujer Estás embarazada o durante el puerperio$/ do
     puts fail "Tarjeta de Vacunas nula".red
   end
   line
-  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
-  deslogueo.click
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    deslogueo_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[9]/a')
+    deslogueo_980px.click
+  else
+    deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+    deslogueo.click
+  end
 end
 
 
@@ -202,8 +232,15 @@ Given /^Intentando ingresar a QA con usuario HOMBRE$/ do
 
 end
 Then /^verificando texto Hombre no debe estar Estás embarazada o durante el puerperio$/ do
-  salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
-  salud_menu1.click
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    salud_menu1_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[5]/a')
+    salud_menu1_980px.click
+  else
+    salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+    salud_menu1.click
+  end
   line
   tarjeta_d_vacunas = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]')
   tarjeta_d_vacunas = tarjeta_d_vacunas.text
@@ -220,8 +257,15 @@ Then /^verificando los textos en general de la tarjeta Vacunas en QA$/ do
   line
   puts "ok.....[PASSED]".cyan
   line
-  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
-  deslogueo.click
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    deslogueo_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[9]/a')
+    deslogueo_980px.click
+  else
+    deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+    deslogueo.click
+  end
 end
 ################################################################################################################
 
@@ -250,8 +294,15 @@ Given /^Intentando ingresar a QA con usuario DONANTE de órganos y tejidos$/ do
     fail puts "El ingreso para Rodrigo Martin Lista es incorrecto".red
   end
   line
-  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
-  deslogueo.click
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    deslogueo_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[9]/a')
+    deslogueo_980px.click
+  else
+    deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+    deslogueo.click
+  end
 end
 
 
@@ -285,13 +336,88 @@ Given /^Intentando ingresar a QA con usuario NO DONANTE de órganos y tejidos$/ 
     fail puts "El ingreso para Antonella Melisa Lista es incorrecto".red
   end
   line
-  deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
-  deslogueo.click
+=begin
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    deslogueo_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[9]/a')
+    deslogueo_980px.click
+  else
+    deslogueo = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+    deslogueo.click
+  end
+=end
 end
 
 Then /^Verificando la tarjeta Donación de órganos y tejidos con usuario NO DONANTE$/ do
-  # do something
+  menu_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    salud_menu1_980px = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[5]/a')
+    salud_menu1_980px.click
+  else
+    salud_menu1 = @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+    salud_menu1.click
+  end
+
+
+
+
+
+
+  if esta_este_elemento(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div')
+    menu_de_salud =  @browser.find_element(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div')
+    menu_de_salud = menu_de_salud.text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  else
+    
+
+=begin
+      elsif menu_de_salud.include? "Donación de médula ósea"
+        tarjeta_donacion_medula = menu_de_salud.text
+        puts " la tarjeta es: #{tarjeta_donacion_medula}"
+
+
+       elsif menu_de_salud.include? "Donación de órganos y tejidos"
+        tarjeta_organos_tejidos =  menu_de_salud.text
+        puts " la tarjeta es: #{tarjeta_organos_tejidos}"
+
+
+      elsif
+      menu_de_salud.include? "Queremos ofrecerte información personalizada"
+        tarjeta_de_vacunas  = menu_de_salud.text
+        puts " la tarjeta es: #{tarjeta_de_vacunas}"
+
+
+      elsif
+      menu_de_salud.include? "Te puede interesar"
+        tarjeta_te_puede_interesar = menu_de_salud.text
+        puts " la tarjeta es: #{tarjeta_te_puede_interesar}
+=end
+
+  end
+
 end
+
+
+
+
+
 
 Then /^Verificando el formulario para expresar la voluntad de donar$/ do
   # do something

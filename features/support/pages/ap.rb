@@ -44,3 +44,17 @@ end
 def miArgentina_cerrar
   @browser.close
 end
+
+def esta_este_elemento(clase, elemento)
+  @browser.manage.timeouts.implicit_wait = 0
+  result = @browser.find_elements(clase, elemento).size() > 0
+  if result
+    result = @browser.find_element(clase, elemento).displayed?
+  end
+  @browser.manage.timeouts.implicit_wait = 30
+  return result
+end
+
+def captura_elemento(clase,elemento)
+  @browser.find_element(clase, elemento)
+end
