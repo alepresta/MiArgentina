@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_prod/features/20288463213.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_prod/step_definitions/20288463213.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/features/27148533070.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/features/salud.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/features/tarjetas_credenciales.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/step_definitions/27148533070.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/step_definitions/Tarjetas_credenciales.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/step_definitions/salud.rb" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -34,24 +24,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="false">
+          <leaf>
+            <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/cucumber.yml">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="17" column="8" selection-start-line="16" selection-end-line="91" selection-end-column="20" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="741">
-                      <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
-                    </first_editor>
-                    <second_editor />
+                  <state relative-caret-position="825">
+                    <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
                   </state>
                 </provider>
               </entry>
@@ -145,8 +123,8 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/Login/Login.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Menu/Menu.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/casos_prueba.md" />
-        <option value="$PROJECT_DIR$/cucumber.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/cucumber.yml" />
       </list>
     </option>
   </component>
@@ -430,7 +408,7 @@
       <workItem from="1526475424002" duration="35000" />
       <workItem from="1526649603790" duration="288000" />
       <workItem from="1526904755315" duration="14604000" />
-      <workItem from="1526987797413" duration="16635000" />
+      <workItem from="1526987797413" duration="17715000" />
     </task>
     <servers />
   </component>
@@ -440,7 +418,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113940000" />
+    <option name="totallyTimeSpent" value="115020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,20 +631,20 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0001_Login/Login.md" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/step_definitions/salud.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/features/salud.feature" />
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="16" selection-end-line="91" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="741">
-            <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+          <first_editor relative-caret-position="-2610">
+            <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
         </state>
       </provider>
     </entry>
