@@ -124,7 +124,7 @@ Then /^Verificando la existencia del Breadcrumb$/ do
   line
   breadcrumb = @browser.find_element(:xpath, '/html/body/main/section[1]/div[1]/div/div/div/ol')
   breadcrumb = breadcrumb.text
-  if breadcrumb.include? "Salud"
+  if breadcrumb.include? "0007_Salud"
     puts "el breadcrumb existe y es #{breadcrumb} .....[PASSED]".cyan
   else
     puts fail "el breadcrumb NO existe y es #{breadcrumb}".red

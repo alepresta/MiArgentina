@@ -29,7 +29,7 @@ end
 
 When /^Verificando que existe la seccion Mis credenciales$/ do
   line
-  menu_credenciales = @browser.find_element(:link_text, "Credenciales")
+  menu_credenciales = @browser.find_element(:link_text, "0004_Credenciales")
   texto_del_menu = menu_credenciales.text
   puts "Se selecciona el botón #{texto_del_menu} \"......".cyan
   menu_credenciales.click

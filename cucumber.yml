@@ -1,12 +1,101 @@
+########################################################################################################
 #default: --format pretty
 #html: -f html -o reportes/reporte.html -p default
 #regresion: -t @regresion -p html
+########################################################################################################
 default: -p html report_name=all
 html: -f html -o test/report/reporte.html --format pretty
 regresion: -t @r -p html report_name=Regresion
 credenciales: -t @credenciales -p html report_name=credenciales
 20288463213: -t @20288463213 -p html report_name=20288463213
 27148533070: -t @27148533070 -p html report name=27148533070
-salud: -t @salud -p html report name=salud
+##
 vacunas: -t @vacunas -p html report name=vacunas
 donacion_organos: -t @donacion_organos -p html report=donacion_organos
+
+########################################################################################################
+menu: -t @menu -p html report_name=menu
+########################################################################################################
+cerrar_la_Sesion: -t @cerrar_la_Sesion -p html report_name=cerrar_la_Sesion
+########################################################################################################
+configurar_Mi_Cuenta: -t @configurar_Mi_Cuenta -p html report_name=configurar_Mi_Cuenta
+configurar_Mi_Cuenta_vistaGeneral:
+tarjeta_Cambiar_Contrasena:
+########################################################################################################
+configurar_Notificaciones: -t @configurar_Notificaciones -p html report_name=configurar_Notificaciones
+configurar_Notificaciones_vistaGeneral:
+tarjeta_Canales_de_Envio:
+tarjeta_Elegir_Novedades:
+tarjeta_Servicios:
+########################################################################################################
+credenciales:   -t @credenciales -p html report_name=credenciales
+credenciales_vistaGereral:
+tarjeta_CUD:
+tarjeta_CUIL:
+tarjeta_D_Organos:
+tarjeta_DNI:
+tarjeta_LC:
+tarjeta_M_Osea:
+########################################################################################################
+datos_Basicos: -t @datos_Basicos -p html report_name=datos_Basicos
+datos_Basicos_vistaGeneral:
+tarjeta_Datos_Basicos:
+########################################################################################################
+datos_Opcionales: -t @datos_Opcionales -p html report_name=datos_Opcionales
+datos_Opcionales_vistaGeneral:
+tarjeta_Datos_Opcionales:
+########################################################################################################
+discapacidad: -t @discapacidad -p html report_name=discapacidad
+discapacidad_vistaGeneral:
+tarjeta_CUD:
+########################################################################################################
+formacion: -t @formacion -p html report_name=formacion
+formación_vistaGeneral:
+tarjeta_Mis_Cursos:
+tarjeta_Opciones_de_Capacitacion:
+########################################################################################################
+inicio: -t @inicio -p html report_name=inicio
+inicio_vistaGeneral:
+tajeta_Mis_Tramites_y_Turnos:
+tarjeta_Mis_Notificaciones:
+tarjeta_Otros_Servicios_y_Notificaciones:
+########################################################################################################
+menu_vistaGeneral: -t @menu_vistaGeneral -p html report_name=menu_vistaGeneral
+########################################################################################################
+mis_Dispositivos: -t @mis_Dispositivos -p html report_name=mis_Dispositivos
+mis_Dispositivos_vistaGeneral:
+tarjeta_Mis_Dispositivos:
+########################################################################################################
+mis_Vehiculos: -t @mis_Vehiculos -p html report_name=mis_Vehiculos
+mis_Vehiculos_vistaGeneral:
+tarjeta_Mis_Vehiculos:
+########################################################################################################
+perfilConductor: -t @perfilConductor -p html report_name=perfilConductor
+perfilConductor_vistaGeneral:
+tarjeta_Licencia_de_Conducir:
+tarjeta_Vehiculos:
+########################################################################################################
+redes_Sociales: -t @redes_Sociales -p html report_name=redes_Sociales
+redes_sociales_vistaGeneral:
+tarjeta_Vincula_tus_redes_sociaes_aTu_cuenta-de_Mi_Argentina:
+########################################################################################################
+salud: -t @salud -p html report_name=salud
+salud_vistaGeneral:
+tarjeta_D_Organos:
+tarjeta_M_Osea:
+tarjeta_Te_puede_Interesar:
+tarjeta_Vacunas:
+########################################################################################################
+turnos: -t @turnos -p html report_name=turnos
+tarjeta_de_Turnos:
+tarjeta_Mis_turnos_pendientes:
+turnos_vistaGeneral:
+
+
+
+
+
+
+
+
+
