@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
-    </list>
+    <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -21,15 +19,18 @@
     <SUITE FILE_PATH="coverage/MiArgentina@All_tests_in_Login__MiArgentina.rcov" NAME="All tests in Login: MiArgentina Coverage Results" MODIFIED="1525781961983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MiArgentina" />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/cucumber.yml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="825">
-                    <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
+            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/README.md">
+                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                  <state split_layout="SECOND">
+                    <first_editor relative-caret-position="15">
+                      <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="9" />
+                    </first_editor>
+                    <second_editor />
                   </state>
                 </provider>
               </entry>
@@ -43,7 +44,17 @@
     <favorites_list name="MiArgentina" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cucumber.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -140,10 +151,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="59" />
-    <option name="y" value="25" />
-    <option name="width" value="965" />
-    <option name="height" value="743" />
+    <option name="x" value="34" />
+    <option name="y" value="27" />
+    <option name="width" value="955" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -408,7 +419,7 @@
       <workItem from="1526475424002" duration="35000" />
       <workItem from="1526649603790" duration="288000" />
       <workItem from="1526904755315" duration="14604000" />
-      <workItem from="1526987797413" duration="17715000" />
+      <workItem from="1526987797413" duration="18701000" />
     </task>
     <servers />
   </component>
@@ -418,7 +429,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115020000" />
+    <option name="totallyTimeSpent" value="116006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,20 +642,20 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0001_Login/Login.md" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/step_definitions/salud.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/features/salud.feature" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2610">
-            <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="15">
+            <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
