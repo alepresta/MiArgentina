@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,21 +21,33 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MiArgentina@All_tests_in_Login__MiArgentina.rcov" NAME="All tests in Login: MiArgentina Coverage Results" MODIFIED="1525781961983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MiArgentina" />
   </component>
+  <component name="DockManager">
+    <window id="3">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/README.md">
+                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                  <state split_layout="FIRST">
+                    <first_editor relative-caret-position="424">
+                      <caret line="413" lean-forward="true" selection-start-line="413" selection-end-line="413" />
+                    </first_editor>
+                    <second_editor />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="MiArgentina" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cucumber.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -55,6 +68,8 @@
       <find>(S)</find>
       <find>***_&quot;</find>
       <find>#</find>
+      <find>[configurar_Mi_Cuenta_vistaGeneral](http://35.198.13.196/)</find>
+      <find>[tarjeta_CUD](http://35.198.13.196/linkto.php?tprojectPrefix=marg&amp;item=testcase&amp;id=marg-155)</find>
     </findStrings>
     <replaceStrings>
       <replace>cuit</replace>
@@ -84,6 +99,9 @@
       <replace>(Suite)</replace>
       <replace>XXX</replace>
       <replace>&quot;&quot;</replace>
+      <replace>[menu](http://35.198.13.196/linkto.php?tprojectPrefix=marg&amp;item=testcase&amp;id=marg-143)</replace>
+      <replace>[configurar_Mi_Cuenta_vistaGeneral](http://35.198.13.196/linkto.php?tprojectPrefix=marg&amp;item=testcase&amp;id=marg-146)</replace>
+      <replace>[tarjeta_CUD](http://35.198.13.196/linkto.php?tprojectPrefix=marg&amp;item=testcase&amp;id=marg-169)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -115,8 +133,8 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/Login/Login.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Menu/Menu.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/casos_prueba.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -132,7 +150,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1688" />
+    <option name="x" value="1684" />
     <option name="width" value="955" />
     <option name="height" value="555" />
   </component>
@@ -399,7 +417,8 @@
       <workItem from="1526475424002" duration="35000" />
       <workItem from="1526649603790" duration="288000" />
       <workItem from="1526904755315" duration="14604000" />
-      <workItem from="1526987797413" duration="19235000" />
+      <workItem from="1526987797413" duration="20990000" />
+      <workItem from="1527074138030" duration="10050000" />
     </task>
     <servers />
   </component>
@@ -409,7 +428,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116540000" />
+    <option name="totallyTimeSpent" value="128345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +443,7 @@
     <frame x="1083" y="-2" width="1861" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.2567493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.26280993" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5036573" side_tool="true" weight="0.3270142" />
@@ -453,7 +472,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/Login/features/20288463213.feature" />
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -615,17 +633,15 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0001_Login/Login.md" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/step_definitions/salud.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/0000_Borradores/Login_qa/features/salud.feature" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="15">
-            <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/test/report/MiArgentina__2018-05-22-14-39-00.html" />
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/report/MiArgentina__2018-05-22-14-39-00.html">
+    <entry file="file://$PROJECT_DIR$/test/report/MiArgentina__2018-05-18-13-21-23.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -636,10 +652,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="424">
+            <caret line="413" lean-forward="true" selection-start-line="413" selection-end-line="413" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
