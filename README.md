@@ -64,7 +64,7 @@
 
 
 >* (Suite) ***_formacion:_***
->    * cp: "[formacion](http://35.198.13.196/formacion](http://35.198.13.196/formacion](http://35.198.13.196/formacion](http://35.198.13.196/formacion](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-170)"
+>    * cp: "[formacion](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-170)"
 >    * cp: "[formacion_vistaGeneral](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-171)"
 >    * cp: "[tarjeta_Mis_Cursos](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-172)" 
 >    * cp: "[tarjeta_Opciones_de_Capacitacion](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-173)"
@@ -107,6 +107,7 @@
 >    * cp: "[tarjeta_M_Osea](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-196)" 
 >    * cp: "[tarjeta_Te_puede_Interesar](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-197)"
 >    * cp: "[tarjeta_Vacunas](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-198)" 
+>    * cp: "[formulario_Expresa_tu_voluntad_de_donar_en_forma_digital](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-203)"
 
 
 >* (Suite) ***_turnos:_***
@@ -391,7 +392,10 @@
 >~~~
 > cucumber -t, --tags @tarjeta_Vacunas
 >~~~
-
+>Para ejecutar  el cp: "[formulario_Expresa_tu_voluntad_de_donar_en_forma_digital](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-203)"
+>~~~
+> cucumber -t, --tags @formulario_Expresa_tu_voluntad_de_donar_en_forma_digital
+>~~~
 
 >(S) turnos:
 >----

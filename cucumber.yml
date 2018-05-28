@@ -60,6 +60,8 @@ turnos: -t @turnos -p html report_name=turnos
 tarjeta_de_Turnos: -t @tarjeta_de_Turnos -p html report_name=tarjeta_de_Turnos
 tarjeta_Mis_turnos_pendientes: -t @tarjeta_Mis_turnos_pendientes -p html report_name=tarjeta_Mis_turnos_pendientes
 turnos_vistaGeneral: -t @turnos_vistaGeneral -p html report_name=turnos_vistaGeneral
+formulario_Expresa_tu_voluntad_de_donar_en_forma_digital: -t @formulario_Expresa_tu_voluntad_de_donar_en_forma_digital -p html report_name=formulario_Expresa_tu_voluntad_de_donar_en_forma_digital
+
 
 
 ####################################################################
