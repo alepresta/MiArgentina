@@ -21,6 +21,7 @@
 >
 >* (Suite) ***_menu:_***   
 >    * cp: "[menu](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-143)"
+>    * cp: "[menu_vistaGeneral](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-179)"
 
 >* (Suite) ***_cerrar_la_Sesion:_***
 >    * cp:  "[cerrar_la_Sesion](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-144)"
@@ -76,8 +77,6 @@
 >    * cp: "[tarjeta_Mis_Notificaciones](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-177)" 
 >    * cp: "[tarjeta_Otros_Servicios_y_Notificaciones](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-178)" 
 
->* (Suite) ***_menu_vistaGeneral:_***
->    * cp: "[menu_vistaGeneral](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-179)"
 
 >* (Suite) ***_mis_Dispositivos:_***
 >    * cp: "[mis_Dispositivos](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-180)"
@@ -124,7 +123,10 @@
 >~~~
 >cucumber -t, --tags @menu
 >~~~
->
+>Para ejecutar  el cp: "[menu_vistaGeneral](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-179)" 
+>~~~
+>  cucumber -t, --tags @menu_vistaGeneral
+>~~~
 
 
 >(S) cerrar_la_Sesion: 
@@ -293,13 +295,6 @@
 >Para ejecutar  el cp: "[tarjeta_Otros_Servicios_y_Notificaciones](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-178)" 
 >~~~
 > cucumber -t, --tags @tarjeta_Otros_Servicios_y_Notificaciones
->~~~
-
->(S) menu_vistaGeneral:
->----  
->Para ejecutar  el cp: "[menu_vistaGeneral](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-179)" 
->~~~
->  cucumber -t, --tags @menu_vistaGeneral
 >~~~
 
 >(S) mis_Dispositivos:
