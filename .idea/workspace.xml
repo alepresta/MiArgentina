@@ -4,7 +4,6 @@
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -31,8 +30,8 @@
               <entry file="file://$PROJECT_DIR$/README.md">
                 <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                   <state split_layout="SECOND">
-                    <first_editor relative-caret-position="1088">
-                      <caret line="395" column="4" lean-forward="true" selection-start-line="395" selection-start-column="4" selection-end-line="395" selection-end-column="4" />
+                    <first_editor relative-caret-position="188">
+                      <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
                     </first_editor>
                     <second_editor />
                   </state>
@@ -58,19 +57,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cucumber.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
+            <state relative-caret-position="1305">
               <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salud.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="salud.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2505">
+            <state relative-caret-position="-2595">
               <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
@@ -163,8 +162,8 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/Menu/Menu.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/casos_prueba.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud.feature" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -223,32 +222,6 @@
               <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
               <item name="Borradores" type="462c0819:PsiDirectoryNode" />
               <item name="Login_prod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="Borradores" type="462c0819:PsiDirectoryNode" />
-              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="Borradores" type="462c0819:PsiDirectoryNode" />
-              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="Borradores" type="462c0819:PsiDirectoryNode" />
-              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
@@ -496,7 +469,7 @@
       <workItem from="1527074138030" duration="14412000" />
       <workItem from="1527180775919" duration="953000" />
       <workItem from="1527513841026" duration="263000" />
-      <workItem from="1527514774127" duration="2007000" />
+      <workItem from="1527514774127" duration="4317000" />
     </task>
     <servers />
   </component>
@@ -506,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135930000" />
+    <option name="totallyTimeSpent" value="138240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,13 +674,6 @@
     <entry file="file://$PROJECT_DIR$/test/report/MiArgentina__2018-05-18-13-21-23.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2505">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -715,20 +681,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="1088">
-            <caret line="395" column="4" lean-forward="true" selection-start-line="395" selection-start-column="4" selection-end-line="395" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="-2595">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="188">
+            <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
