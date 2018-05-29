@@ -1,5 +1,5 @@
 Feature: En este CP se debe probar que se puede ingresar al sistema
-  @27148533070
+
   Scenario: Ingresar a Qa
     Given Intentando acceder a la página de Qa id.argentina.gob.ar
     When Intentando ingresar CUIL 27148533070 para el usuario Leticia Emilse Lista

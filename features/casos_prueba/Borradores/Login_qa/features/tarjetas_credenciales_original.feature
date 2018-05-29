@@ -10,7 +10,7 @@ Feature: Tarjetas de Credenciales
 
   Resultado esperado:  Debe existir una sección Mis credenciales en mi perfil después de ingresar a Mi Argentina
 
-  @credenciales
+
   Scenario: Tarjetas de Credenciales
     Given Ingresar a Qa con el usuario Leticia Emilse Lista CUIT 27148533070
     When Verificando que existe la seccion Mis credenciales
