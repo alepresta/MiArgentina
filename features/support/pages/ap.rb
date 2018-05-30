@@ -58,3 +58,24 @@ end
 def captura_elemento(clase,elemento)
   @browser.find_element(clase, elemento)
 end
+
+
+def logueo(cuit,usuario_nombre,psw)
+browser_MiArgentina
+  usuario = @browser.find_element(:id, 'id_number')
+  usuario.send_keys cuit
+  continuar =  @browser.find_element(:class, "loginCuilSession")
+  continuar.click
+  contrasena = @browser.find_element(:id, 'id_number')
+  contrasena.send_keys psw
+  continuado =  @browser.find_element(:class, "loginCuilSession")
+  continuado.click
+  nombre_de_clase = @browser.find_element(:xpath, "/html/body/main/section[1]/div[2]/div/h1")
+  txtesto =  nombre_de_clase.text
+  puts txtesto
+  if txtesto.include? usuario_nombre
+    puts "El ingreso para #{usuario_nombre} es correcto......[PASSED]".green
+  else
+    fail puts "El ingreso para #{usuario_nombre} es incorrecto...[ERROR]".red
+  end
+end
