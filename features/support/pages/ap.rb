@@ -61,7 +61,7 @@ end
 
 
 def logueo(cuit,usuario_nombre,psw)
-browser_MiArgentina
+  browser_MiArgentina_qa
   usuario = @browser.find_element(:id, 'id_number')
   usuario.send_keys cuit
   continuar =  @browser.find_element(:class, "loginCuilSession")
@@ -77,5 +77,190 @@ browser_MiArgentina
     puts "El ingreso para #{usuario_nombre} es correcto......[PASSED]".green
   else
     fail puts "El ingreso para #{usuario_nombre} es incorrecto...[ERROR]".red
+  end
+end
+
+def capturar(x,y)
+  @browser.find_element(x,y)
+end
+
+def menu_inicio
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    inicio_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[1]/a')
+    inicio_menu_980px.click
+  else
+    inicio_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[1]/a')
+    inicio_menu.click
+  end
+end
+
+def menu_credenciales
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    credenciales_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[2]/a')
+    credenciales_menu_980px.click
+  else
+    credenciales_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[2]/a')
+    credenciales_menu.click
+  end
+end
+
+def menu_turnos
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    turnos_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[3]/a')
+    turnos_menu_980px.click
+  else
+    turnos_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[3]/a')
+    turnos_menu.click
+  end
+end
+
+
+def menu_perfilConductor
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    perfilConductor_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[4]/a')
+    perfilConductor_menu_980px.click
+  else
+    perfilConductor_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[4]/a')
+    perfilConductor_menu.click
+  end
+end
+
+
+def menu_salud
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    salud_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[5]/a')
+    salud_menu_980px.click
+  else
+    salud_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[5]/a')
+    salud_menu.click
+  end
+end
+
+def menu_discapacidad
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    discapacidad_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[6]/a')
+    discapacidad_menu_980px.click
+  else
+    discapacidad_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[6]/a')
+    discapacidad_menu.click
+  end
+end
+
+
+def menu_formacion
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    formacion_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[1]/li[7]/a')
+    formacion_menu_980px.click
+  else
+    formacion_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[7]/a')
+    formacion_menu.click
+  end
+end
+
+
+def menu_datosBasicos
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    datosBasicos_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[2]/a')
+    datosBasicos_menu_980px.click
+  else
+    datosOpcionales_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[9]/a')
+    datosOpcionales_menu.click
+  end
+end
+
+
+def menu_datosOpcionales
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    datosOpcionales_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[3]/a')
+    datosOpcionales_menu_980px.click
+  else
+    datosOpcionales_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[10]/a')
+    datosOpcionales_menu.click
+  end
+end
+
+
+
+def menu_misVehiculos
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    misVehiculos_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[4]/a')
+    misVehiculos_menu_980px.click
+  else
+    misVehiculos_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[11]/a')
+    misVehiculos_menu.click
+  end
+end
+
+
+def menu_misDispositivos
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    misDispositivos_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[5]/a')
+    misDispositivos_menu_980px.click
+  else
+    misDispositivos_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[11]/a')
+    misDispositivos_menu.click
+  end
+end
+
+
+def menu_redesSociales
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    redesSociales_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[6]/a')
+    redesSociales_menu_980px.click
+  else
+    redesSociales_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[13]/a')
+    redesSociales_menu.click
+  end
+end
+
+
+def menu_configurarNotificaciones
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    configurarNotificaciones_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[7]/a')
+    configurarNotificaciones_menu_980px.click
+  else
+    configurarNotificaciones_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[14]/a')
+    configurarNotificaciones_menu.click
+  end
+end
+
+
+
+
+def menu_configurarMiCuenta
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    configurarMiCuenta_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[8]/a')
+    configurarMiCuenta_menu_980px.click
+  else
+    configurarMiCuenta_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[15]/a')
+    configurarMiCuenta_menu.click
   end
 end

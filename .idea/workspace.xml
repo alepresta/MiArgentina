@@ -2,55 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070a.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/salud.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/salud_vistaGeneral.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/tarjeta_D_Organos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/tarjeta_M_Osea.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/tarjeta_Te_puede_Interesar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/tarjeta_Vacunas.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/salud.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/salud_vistaGeneral.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/tarjeta_D_Organos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/tarjeta_M_Osea.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/tarjeta_Te_puede_Interesar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/step_definitions/tarjeta_Vacunas.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/salud.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/salud_vistaGeneral.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/tarjeta_D_Organos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/tarjeta_M_Osea.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/tarjeta_Te_puede_Interesar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/tarjeta_Vacunas.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/salud.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/salud_vistaGeneral.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/tarjeta_D_Organos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/tarjeta_M_Osea.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/tarjeta_Te_puede_Interesar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/step_definitions/tarjeta_Vacunas.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/salud.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/salud_vistaGeneral.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/tarjeta_D_Organos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/tarjeta_M_Osea.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/tarjeta_Te_puede_Interesar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/tarjeta_Vacunas.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/salud.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/salud_vistaGeneral.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/tarjeta_D_Organos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/tarjeta_M_Osea.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/tarjeta_Te_puede_Interesar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/step_definitions/tarjeta_Vacunas.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/salud.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/salud_vistaGeneral.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/tarjeta_D_Organos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/tarjeta_M_Osea.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/tarjeta_Te_puede_Interesar.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/tarjeta_Vacunas.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/salud.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/salud_vistaGeneral.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/tarjeta_D_Organos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/tarjeta_M_Osea.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/tarjeta_Te_puede_Interesar.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/step_definitions/tarjeta_Vacunas.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20052701024.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20052701024.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20166809062.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20166809062.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20172243259.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20172243259.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20249403467.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20249403467.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20253603144.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20253603144.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20258489749.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20258489749.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20267047813.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20267047813.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20284635885.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20284635885.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20288463213.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20288463213.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20364268913.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20364268913.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20372995417.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20372995417.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23234020544.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23234020544.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23273573224.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23273573224.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27033056562.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27033056562.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27038667616.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27038667616.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20052701024.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27230388569.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27230388569.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27271042669.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27271042669.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27371491657.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27371491657.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20052701024.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20052701024.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20110219831.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20166809062.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20166809062.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20172243259.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20172243259.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20249403467.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20249403467.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20253603144.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20253603144.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20258489749.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20258489749.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20267047813.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20267047813.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20284635885.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20284635885.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20288463213.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20288463213.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20364268913.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20364268913.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20372995417.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20372995417.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23234020544.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/23234020544.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23273573224.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/23273573224.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27033056562.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27033056562.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27038667616.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27038667616.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070a.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27148533070a.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27230388569.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27230388569.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27271042669.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27271042669.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27371491657.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27371491657.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/27388881548.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20052701024.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20052701024.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20110219831.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20110219831.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20166809062.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20166809062.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20172243259.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20172243259.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20249403467.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20249403467.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20253603144.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20253603144.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20258489749.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20258489749.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20267047813.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20267047813.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20284635885.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20284635885.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20288463213.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20288463213.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20364268913.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20364268913.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20372995417.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20372995417.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23234020544.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/23234020544.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23273573224.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/23273573224.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27033056562.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27033056562.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27038667616.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27038667616.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27148533070.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27148533070.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27230388569.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27230388569.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27271042669.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27271042669.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27371491657.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27371491657.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/27388881548.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/support/pages/ap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/ap.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-18-13-21-23.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-23-12-49-38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-24-13-55-04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-24-13-56-07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-24-13-57-00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-24-13-57-19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-11-57-41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-12-03-31.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-12-03-44.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-14-49-56.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-09-48.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-13-41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-13-57.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-14-06.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-14-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-14-41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-14-49.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-17-16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-17-34.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-18-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-19-21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-19-43.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-21-01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-05-28-15-29-27.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -68,47 +121,43 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MiArgentina@All_tests_in_Login__MiArgentina.rcov" NAME="All tests in Login: MiArgentina Coverage Results" MODIFIED="1525781961983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="MiArgentina" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="SECOND">
-                    <first_editor relative-caret-position="4890">
-                      <caret line="326" column="2" selection-start-line="326" selection-start-column="2" selection-end-line="326" selection-end-column="2" />
-                    </first_editor>
-                    <second_editor />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="MiArgentina" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="27388881548.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature">
+      <file leaf-file-name="20172243259.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20172243259.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="27388881548.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb">
+      <file leaf-file-name="salud_original.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud_original.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="525">
+              <caret line="38" selection-start-line="38" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salud_vistaGeneral.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salud_vistaGeneral.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -142,13 +191,6 @@
       <find>&gt;&gt; * `cucumber -t</find>
     </findStrings>
     <replaceStrings>
-      <replace>menu_de_salud</replace>
-      <replace>if</replace>
-      <replace>elsif</replace>
-      <replace>########</replace>
-      <replace>* (S)</replace>
-      <replace>######Para ejecutar  el cp: ***_&quot;</replace>
-      <replace>&gt;######Para ejecutar  el cp: ***_&quot;</replace>
       <replace>&quot;_***</replace>
       <replace>***_</replace>
       <replace>Suite</replace>
@@ -172,6 +214,13 @@
       <replace>&gt;&gt;  * `cucumber -t</replace>
       <replace>&gt;&gt; *  cp:</replace>
       <replace>&gt;&gt; * cp:</replace>
+      <replace>Se valida que esta</replace>
+      <replace>Se valida que</replace>
+      <replace>Se valida</replace>
+      <replace>Se valida el texto del</replace>
+      <replace>Se valida el texto del campo</replace>
+      <replace>Se valida contenido del campo</replace>
+      <replace>Se valida el contenido de la tarjeta detalles. campo =</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,15 +229,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/casos_prueba/casos_prueba.md" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud.feature" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud_original.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/tarjetas_credenciales_original.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/27148533070_original.feature" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20052701024.feature" />
-        <option value="$PROJECT_DIR$/features/support/pages/ap.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20052701024.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature" />
@@ -231,6 +276,10 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27371491657.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20052701024.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/ap.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb" />
       </list>
     </option>
   </component>
@@ -246,10 +295,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1608" />
-    <option name="y" value="51" />
-    <option name="width" value="935" />
-    <option name="height" value="555" />
+    <option name="x" value="1083" />
+    <option name="y" value="-2" />
+    <option name="width" value="1861" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -259,8 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,7 +339,7 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
               <item name="Borradores" type="462c0819:PsiDirectoryNode" />
-              <item name="Login_prod" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +347,7 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
               <item name="Borradores" type="462c0819:PsiDirectoryNode" />
-              <item name="Login_prod" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,8 +356,131 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
               <item name="Borradores" type="462c0819:PsiDirectoryNode" />
-              <item name="Login_prod" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
               <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="formulario_Expresa_tu_voluntad_de_donar_en_forma_digital" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="salud_vistaGeneral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="salud_vistaGeneral" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="salud_vistaGeneral" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="tarjeta_D_Organos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="tarjeta_M_Osea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="tarjeta_Te_puede_Interesar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="tarjeta_Vacunas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario_donante" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario_no_donante" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="salud" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario_sin_expresion_de_voluntad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
@@ -340,6 +510,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,6 +528,13 @@
       <recent name="$PROJECT_DIR$/features/casos_prueba/Menu" />
       <recent name="$PROJECT_DIR$/features/casos_prueba/Login/Login_usuarios" />
       <recent name="$PROJECT_DIR$/features/casos_prueba/Borradores" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad" />
+      <recent name="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante" />
+      <recent name="$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante" />
+      <recent name="$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital" />
+      <recent name="$PROJECT_DIR$/features/casos_prueba/Login/Login_ambiente" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -573,7 +752,9 @@
       <workItem from="1527531357180" duration="1211000" />
       <workItem from="1527592336480" duration="2264000" />
       <workItem from="1527595066024" duration="20539000" />
-      <workItem from="1527678870472" duration="10131000" />
+      <workItem from="1527678870472" duration="12927000" />
+      <workItem from="1527764878001" duration="2670000" />
+      <workItem from="1527873543026" duration="5117000" />
     </task>
     <servers />
   </component>
@@ -583,7 +764,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173652000" />
+    <option name="totallyTimeSpent" value="184235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,9 +777,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1083" y="-2" width="1861" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.18677686" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978355" weight="0.37758434" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5036573" side_tool="true" weight="0.3270142" />
@@ -622,19 +802,19 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49634275" weight="0.3270142" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.18677686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49634275" weight="0.3270142" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32575756" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32946146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5036573" side_tool="true" weight="0.3270142" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -649,347 +829,109 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_M_Osea.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="41" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/27148533070_original.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20166809062.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20166809062.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20172243259.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20172243259.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20249403467.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20249403467.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20253603144.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20253603144.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20258489749.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20258489749.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20267047813.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20267047813.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20284635885.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20284635885.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20288463213.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20288463213.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20364268913.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20364268913.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20372995417.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20372995417.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23234020544.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23234020544.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23273573224.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23273573224.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27033056562.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27033056562.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27038667616.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27038667616.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070a.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27148533070.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27230388569.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27230388569.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27271042669.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27271042669.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27371491657.feature" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27371491657.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
-          <first_editor relative-caret-position="4890">
-            <caret line="326" column="2" selection-start-line="326" selection-start-column="2" selection-end-line="326" selection-end-column="2" />
+          <first_editor relative-caret-position="4732">
+            <caret line="325" column="39" selection-start-line="325" selection-start-column="7" selection-end-line="325" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20288463213_original.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20052701024.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/report/MiArgentina__2018-05-31-11-51-51.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_sin_expresion_de_voluntad/features/salud.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_no_donante/features/salud.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/usuario_donante/features/salud.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital/features/salud.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20172243259.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud_original.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" selection-start-line="38" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/ap.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="35" />
+        <state relative-caret-position="287">
+          <caret line="181" column="107" selection-start-line="181" selection-start-column="107" selection-end-line="181" selection-end-column="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20288463213_original.rb">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20052701024.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20052701024.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20110219831.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20166809062.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20166809062.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20172243259.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20172243259.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20249403467.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20249403467.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20253603144.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20253603144.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20258489749.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20258489749.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20267047813.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20267047813.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20284635885.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20284635885.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20288463213.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20288463213.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20364268913.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20364268913.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20372995417.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20372995417.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23234020544.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23234020544.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23273573224.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23273573224.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27033056562.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27033056562.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27038667616.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27038667616.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070a.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27148533070.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27230388569.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27230388569.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27271042669.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27271042669.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27371491657.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27371491657.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
