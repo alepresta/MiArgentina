@@ -1,6 +1,12 @@
 cuit = 27148533070
 psw_27148533070 = "modernizacion"
-
+#puts @browser.current_url
+#   #puts @browser.current_url
+#   #puts @browser.current_urlv
+#   #puts @browser.current_url
+# v
+#
+#
 Given /^Intentando acceder a la página de Qa id.argentina.gob.ar$/ do
   browser_MiArgentina_qa
   puts "Se valida el acceso a \"https://id.argentina.gob.ar\"......[PASSED]".green
@@ -44,4 +50,7 @@ Then /^Verificando el ingreso al sistema con el usuario Leticia Emilse Lista CUI
     fail puts "El ingreso para Leticia Emilse Lista es incorrecto".red
   end
   miArgentina_cerrar
+
+  #puts @browser.current_url
+
 end

@@ -1,6 +1,7 @@
 require 'colorize'
 require 'selenium-webdriver'
 
+
 def line
   puts "-------------------------------------------------------------------------------".blue
 end
@@ -263,4 +264,41 @@ def menu_configurarMiCuenta
     configurarMiCuenta_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[15]/a')
     configurarMiCuenta_menu.click
   end
+end
+
+
+def esIgual(texto_que_deberia_estar, texto_capturado, imprime)
+  if texto_que_deberia_estar.eql?(texto_capturado)
+    text = true
+    puts " #{imprime} ....................................[PASSED]"
+  else
+    if texto_capturado.include? texto_que_deberia_estar
+      text = true
+      puts " #{imprime} ....................................[PASSED]"
+    else
+      text = false
+      fail puts " #{imprime}..................................[ERROR]"
+    end
+  end
+  return text
+end
+
+
+def link_css_selector(css,link_que_deberia_ser)
+  link_real = css.attribute("href")
+  link_con_texto = css.text
+  link_con_texto = link_con_texto.gsub('Abrir vínculo en nueva pestaña','')
+  if link_que_deberia_ser.eql?(link_real)
+    linksqs = true
+    puts " #{link_con_texto}: lleva a...(#{link_real})..[PASSED]"
+  else
+    if link_real.include? link_que_deberia_ser
+      linksqs = true
+      puts " #{link_con_texto}: lleva a...(#{link_real})..[PASSED]"
+    else
+      linksqs = false
+      fail puts " #{link_con_texto}: NO lleva a...(#{link_real})..[ERROR]"
+    end
+  end
+  return linksqs
 end
