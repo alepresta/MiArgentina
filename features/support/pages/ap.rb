@@ -60,7 +60,6 @@ def captura_elemento(clase,elemento)
   @browser.find_element(clase, elemento)
 end
 
-
 def logueo(cuit,usuario_nombre,psw)
   browser_MiArgentina_qa
   usuario = @browser.find_element(:id, 'id_number')
@@ -266,6 +265,17 @@ def menu_configurarMiCuenta
   end
 end
 
+def menu_salir
+  menu_980px = capturar(:xpath,'/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/li/a/i')
+  if menu_980px.displayed?
+    menu_980px.click
+    salir_menu_980px = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[2]/div/div/div[2]/li[9]/a')
+    salir_menu_980px.click
+  else
+    salir_menu = capturar(:xpath, '/html/body/main/section[2]/div/div/aside/nav/ul/div[1]/li[16]/a')
+    salir_menu.click
+  end
+end
 
 def esIgual(texto_que_deberia_estar, texto_capturado, imprime)
   if texto_que_deberia_estar.eql?(texto_capturado)
@@ -301,4 +311,18 @@ def link_css_selector(css,link_que_deberia_ser)
     end
   end
   return linksqs
+end
+
+def donde_estoy
+  puts @browser.current_url
+end
+
+
+def windows
+  pestanias = @browser.window_handles
+  puts pestanias
+end
+
+def windowsGO(pestania)
+  @browser.switch_to.window(pestania)
 end

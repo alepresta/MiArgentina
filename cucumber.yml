@@ -104,3 +104,9 @@ test00: -t @test06 -p html report_name=test06
 test00: -t @test07 -p html report_name=test07
 
 ####################################################################
+
+usuario_donante: -t @usuario_donante -p html report name=usuario_donante
+usuario_no_donante: -t @usuario_no_donante -p html report name=usuario_no_donante
+usuario_sin_expresion_de_voluntad: -t @usuario_sin_expresion_de_voluntad -p html report name=usuario_sin_expresion_de_voluntad
+
+####################################################################

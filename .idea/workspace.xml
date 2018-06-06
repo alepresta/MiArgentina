@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-04-15-39-45.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/pages/ap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/ap.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-05-08-33-55.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -30,37 +32,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="salud_vistaGeneral.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
+      <file leaf-file-name="usuario_donante.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tarjeta_D_Organos.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="salud_vistaGeneral.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            <state relative-caret-position="752">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="usuario_donante.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27148533070_original.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/27148533070_original.feature">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="usuario_donante.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
+      <file leaf-file-name="27148533070_original.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ap.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/pages/ap.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4005">
+              <caret line="267" column="14" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salud_original.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud_original.feature">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="salud_original.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud_original.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -91,10 +115,10 @@
       <find>marg-143)&quot;</find>
       <find>&gt;&gt; * `cucumber -t</find>
       <find>texto2</find>
+      <find>||</find>
+      <find>driver</find>
     </findStrings>
     <replaceStrings>
-      <replace>Suite</replace>
-      <replace>(Suite)</replace>
       <replace>XXX</replace>
       <replace>&quot;&quot;</replace>
       <replace>[menu](http://35.198.13.196/linkto.php?tprojectPrefix=marg&amp;item=testcase&amp;id=marg-143)</replace>
@@ -123,6 +147,8 @@
       <replace>Se valida el contenido de la tarjeta detalles. campo =</replace>
       <replace>texto_que_deberia_estar</replace>
       <replace>texto_capturado</replace>
+      <replace>or</replace>
+      <replace>browser</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -131,10 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cucumber.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20052701024.feature" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27148533070.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20052701024.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20110219831.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20110219831.rb" />
@@ -178,10 +200,14 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20052701024.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/nuevos.rb" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/ap.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature" />
+        <option value="$PROJECT_DIR$/cucumber.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/ap.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" />
       </list>
     </option>
   </component>
@@ -210,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +266,26 @@
               <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="Borradores" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="Borradores" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
+              <item name="Borradores" type="462c0819:PsiDirectoryNode" />
+              <item name="Login_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
@@ -258,15 +301,6 @@
               <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
               <item name="salud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="formulario_Expresa_tu_voluntad_de_donar_en_forma_digital" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
@@ -301,77 +335,6 @@
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
               <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="tarjeta_D_Organos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="tarjeta_M_Osea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="tarjeta_Te_puede_Interesar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="tarjeta_Vacunas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario_donante" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario_no_donante" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="salud" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario_sin_expresion_de_voluntad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="casos_prueba" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="turnos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,6 +353,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -635,7 +600,8 @@
       <workItem from="1527873543026" duration="5117000" />
       <workItem from="1527880721954" duration="80000" />
       <workItem from="1528112504231" duration="20129000" />
-      <workItem from="1528196337036" duration="3058000" />
+      <workItem from="1528196337036" duration="25314000" />
+      <workItem from="1528284115689" duration="2032000" />
     </task>
     <servers />
   </component>
@@ -645,7 +611,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207502000" />
+    <option name="totallyTimeSpent" value="231790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +626,7 @@
     <frame x="1083" y="-2" width="1861" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.25289255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.2556474" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5036573" side_tool="true" weight="0.3270142" />
@@ -685,19 +651,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.18677686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49634275" weight="0.3270142" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32575756" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32946146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5036573" side_tool="true" weight="0.3270142" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3281893" />
@@ -716,14 +682,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20364268913.feature" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20364268913.rb" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20372995417.feature" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20372995417.rb" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23234020544.feature" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23234020544.rb" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/23273573224.feature" />
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/23273573224.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27033056562.feature" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27033056562.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27038667616.rb" />
@@ -738,16 +696,6 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27371491657.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/27388881548.rb" />
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/27388881548.feature" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="4732">
-            <caret line="325" column="39" selection-start-line="325" selection-start-column="7" selection-end-line="325" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20052701024.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -784,9 +732,6 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/27148533070_original.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
@@ -809,18 +754,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/Tarjetas_credenciales_original.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud_original.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="38" selection-start-line="38" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -832,45 +767,108 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/tarjetas_credenciales_original.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud_original.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="675">
+            <caret line="307" column="1" lean-forward="true" selection-start-line="307" selection-start-column="1" selection-end-line="307" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/ap.rb">
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="292" column="65" selection-start-line="292" selection-start-column="65" selection-end-line="292" selection-end-column="65" />
+        <state relative-caret-position="722">
+          <caret line="107" column="15" selection-start-line="107" selection-end-line="107" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20110219831.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/step_definitions/20249403467.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/27148533070_original.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/27148533070_original.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/salud_original.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/step_definitions/salud_original.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/ap.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4005">
+          <caret line="267" column="14" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -293,6 +293,18 @@
 >> En este caso de prueba se verificará que si el usuario no expreso voluntad de donar pueda hacerlo y que el formulario cumpla con las especificaciones
 >> * `cucumber -t, --tags @formulario_Expresa_tu_voluntad_de_donar_en_forma_digital`
 >>#
+>> ######cp: "[usuario_donante](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-227)"  
+>> En este caso de prueba se verificará la tarjeta Donación de Órganos con usuario Donante
+>> * `cucumber -t, --tags @usuario_donante`
+>>#
+>> ######cp: "[usuario_no_donante](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-229)"  
+>> En este caso de prueba se verificará la tarjeta Donación de Órganos con usuario NO Donante
+>> * `cucumber -t, --tags @usuario_no_donante`
+>>#
+>> ######cp: "[usuario_sin_expresion_de_voluntad](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-228)"  
+>> En este caso de prueba se verificará la tarjeta Donación de Órganos con usuario sin expresion de voluntad
+>> * `cucumber -t, --tags @usuario_sin_expresion_de_voluntad`
+>>#
 #
 #
 >### (Suite) ***_[turnos](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-199)_***
