@@ -1,25 +1,6 @@
 
-=begin
-
-
-Se verificara la tarjeta Detalles
-==============================================
-Permita volver a la pantalla anterior
-Este el campo Manifestación en oposición a la donación de órganos y tejidos. y coincida con el texto: Quiero ser donante
-Este el campo Fecha de expresión de voluntad. y coincida con el texto: 14/05/2018
-Este el campo Apellido. y coincida con el texto: LANDI
-Este el campo Nombres. y coincida con el texto: OMAR ANDRES
-Este el campo Tipo de documento. y coincida con el texto: DNI
-Este el campo Número de documento. y coincida con el texto: 31604573
-Esté presente el código QR (qrcode)
-Se pueda descargar la credencial
-=end
-
-
-
 Then /^Se verificara la tarjeta Donación de Órganos$/ do
   menu_salud
-# Se verificará este presente la tarjeta: Donación de órganos y tejidos
   puts "Verificando textos"
   puts "==================="
   tarjeta_donacion_organos = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[1]/h2').text
@@ -54,7 +35,6 @@ end
   if instituto_Ablacion_e_Implante and logo_Ministerio_Salud and logo_CoberturaUniversal and  icono_fa_heart_o == true
     puts  "Se encuentran todos los logos , íconos e imágenes.......................[PASSED]"
   end
-  # Se verificará que el link Ver más información  lleve a link a https://qa-mi.argentina.gob.ar/salud/donar-organos donde se muestran los DETALLES de la tarjeta
   puts "Verificando Links"
   puts "======================================"
   css = capturar(:css, '.col-sm-5 > a:nth-child(1)')
@@ -80,8 +60,6 @@ end
   puts  "Redes Sociales Twiter y Facebook.......................[PASSED]"
   windowsGO('2147483649')
   menu_salir
-  #miArgentina_cerrar
-
 end
 
 Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
@@ -130,22 +108,10 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
   botona_CREDENCIAL= capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[3]/a')
   botona_CREDENCIAL.click
   @browser.switch_to.window(@browser.window_handles.last)
-
   miArgentina_cerrar
   windowsGO('2147483692')
   credencialpdf = capturar(:xpath,'/html/body/img')
   puts "Se encontro credencial.pdf #{credencialpdf}"
   puts  "DESCARGAR CREDENCIAL.......................[PASSED]"
   miArgentina_cerrar
-
-
-
-
-
-
-
-
-
-
-
 end

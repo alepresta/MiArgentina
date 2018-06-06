@@ -25,7 +25,7 @@ Feature: En este Cp se verificara la tarjeta Donacion de órganos y tejidos con 
   Esté presente el código QR (qrcode)
   Se pueda descargar la credencial
 
-  @salud_usuario_donante
+  @usuario_donante
   Scenario:
     Given Ingresar a QA con CUIL 20172243259
     Then Se verificara la tarjeta Donación de Órganos

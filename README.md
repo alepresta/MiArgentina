@@ -305,7 +305,7 @@
 >> En este caso de prueba se verificará la tarjeta Donación de Órganos con usuario sin expresion de voluntad
 >> * `cucumber -t, --tags @usuario_sin_expresion_de_voluntad`
 >>#
-#
+#miArgentina_cerrar
 #
 >### (Suite) ***_[turnos](http://35.198.13.196/linkto.php?tprojectPrefix=marg&item=testcase&id=marg-199)_***
 > Corriendo este comando se ejecutarán todos los casos de prueba correspondientes a esta suite    
