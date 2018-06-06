@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-09-10-56.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-09-33-50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-09-53-53.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-09-55-48.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-09-57-41.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-09-58-29.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-10-01-52.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-10-04-49.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/report/MiArgentina__2018-06-06-10-05-40.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,20 +36,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="usuario_donante.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
+      <file leaf-file-name="usuario_sin_expresion_de_voluntad.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="77" column="29" selection-start-line="65" selection-end-line="115" selection-end-column="20" />
+            <state relative-caret-position="405">
+              <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario_donante.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature">
+      <file leaf-file-name="salud_vistaGeneral.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="15" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_sin_expresion_de_voluntad.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -51,37 +67,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
-              <first_editor>
+              <first_editor relative-caret-position="4605">
                 <caret line="307" column="19" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="19" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario_no_donante.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cucumber.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cucumber.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario_no_donante.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -156,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20110219831.rb" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20166809062.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20166809062.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20172243259.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20172243259.rb" />
@@ -207,6 +194,8 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb" />
       </list>
     </option>
   </component>
@@ -328,12 +317,6 @@
               <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
               <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MiArgentina" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MiArgentina" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -587,7 +570,7 @@
       <workItem from="1527880721954" duration="80000" />
       <workItem from="1528112504231" duration="20129000" />
       <workItem from="1528196337036" duration="25314000" />
-      <workItem from="1528284115689" duration="4470000" />
+      <workItem from="1528284115689" duration="11529000" />
     </task>
     <servers />
   </component>
@@ -597,7 +580,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234228000" />
+    <option name="totallyTimeSpent" value="241287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,15 +735,6 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/tarjetas_credenciales_original.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20110219831.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -768,13 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -786,9 +753,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Borradores/Login_qa/features/27148533070_original.feature">
@@ -818,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor>
-            <caret line="307" column="19" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20258489749.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -835,17 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature">
+    <entry file="file://$PROJECT_DIR$/cucumber.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="77" column="29" selection-start-line="65" selection-end-line="115" selection-end-column="20" />
+        <state relative-caret-position="663">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
         </state>
       </provider>
     </entry>
@@ -863,10 +810,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber.yml">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="420">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="4605">
+            <caret line="307" column="19" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_sin_expresion_de_voluntad.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="98" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="98" />
         </state>
       </provider>
     </entry>
