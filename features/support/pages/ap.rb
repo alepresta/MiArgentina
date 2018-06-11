@@ -326,3 +326,25 @@ end
 def windowsGO(pestania)
   @browser.switch_to.window(pestania)
 end
+
+def contar(css1, n_max)
+  maxlength =  css1.attribute("maxlength")
+  maxlength = maxlength.to_i
+  name_prefijo =  css1.attribute("name")
+  if maxlength > 0 and maxlength <= n_max
+    puts " #{name_prefijo} debe ser maxlength = (#{n_max}):  el maxlength es = #{maxlength}......................[PASSED]"
+    else
+    puts " #{name_prefijo} debe ser maxlength = (#{n_max}):   el maxlength es = #{maxlength}......................[ERROR]".red
+  end
+end
+
+
+def estipo?(css,tipo)
+  atributo_donante = css.attribute("type")
+  name_prefijo =  css.attribute("name")
+  if atributo_donante == tipo
+    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"......................[PASSED]"
+  else
+    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"......................[ERROR]".red
+  end
+end

@@ -26,6 +26,7 @@ Then /^Se verificara la tarjeta Donación de Órganos con usuario sin expresión
   puts "Verificando Botón EXPRESÁ TU VOLUNTAD EN FORMA DIGITAL"
   puts "======================================================="
   link_css_selector(boton_Expresa,'https://qa-mi.argentina.gob.ar/salud/donar-organos/formulario')
+  miArgentina_cerrar
 end
 
 
