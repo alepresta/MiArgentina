@@ -545,5 +545,200 @@ obligatoriedad_alerta_icono = esta_este_elemento(:css , '.fa-exclamation-circle'
 end
 
 Then /^Verificaciones al contenido de la tarjeta de CONFIRMACIÓN$/ do
-  # do something
+  menu_salud
+  capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/a').click
+  capturar(:css , '#estado_civil > select:nth-child(2) > option:nth-child(3)').click
+  prefijoTelefonoMovil = capturar(:css , '#telefono_movil_0 > input:nth-child(2)')
+  texto_prefijoTelefonoMovil = '0321'
+  prefijoTelefonoMovil.send_keys texto_prefijoTelefonoMovil
+  telefonoMovil12 = capturar(:css , '#telefono_movil_1 > input:nth-child(2)')
+  texto_telefonoMovil = '37521444'
+  telefonoMovil12.send_keys texto_telefonoMovil
+  calleD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[1]/div/input')
+  texto_calleD = 'Bonorino Coronel Esteban'
+  calleD.send_keys texto_calleD
+  numeroD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[2]/div/input')
+  texto_numeroD = '11421'
+  numeroD.send_keys texto_numeroD
+  pisoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[4]/div/input')
+  texto_pisoD = '4'
+  pisoD.send_keys texto_pisoD
+  departamentoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[5]/div/input')
+  texto_departamentoD = 'A'
+  departamentoD.send_keys texto_departamentoD
+  provinciaD = capturar(:css , '#provincia > select:nth-child(2) > option:nth-child(11)')
+  provinciaD.click
+  partidoDepartamentoD = capturar(:css , '#partido > fieldset:nth-child(2) > select:nth-child(1) > option:nth-child(10)')
+  partidoDepartamentoD.click
+  localidadD = capturar(:css , '#localidad > fieldset:nth-child(2) > select:nth-child(1) > option:nth-child(3)')
+  localidadD.click
+  nombreAmigoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[1]/input')
+  texto_nombreAmigoD = 'Marina Melisa Agustina'
+  nombreAmigoD.send_keys texto_nombreAmigoD
+  apellidoAmigoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[2]/input')
+  texto_apellidoAmigoD = 'Aguirre Perez Guillóna'
+  apellidoAmigoD.send_keys texto_apellidoAmigoD
+  vinculoAmigoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[3]/input')
+  texto_vinculoAmigoD = 'La hija de un Tio que se llama Antonia'
+  vinculoAmigoD.send_keys texto_vinculoAmigoD
+  correoAmigoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[4]/input')
+  texto_correoAmigoD = 'eaarached@gmail.com'
+  correoAmigoD.send_keys texto_correoAmigoD
+  prefijoTelefonoMovilAmigoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[5]/fieldset/div[1]/div/input')
+  texto_prefijoTelefonoMovilAmigoD = '0321'
+  prefijoTelefonoMovilAmigoD.send_keys texto_prefijoTelefonoMovilAmigoD
+  telefonoMovilAmigoD = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[5]/fieldset/div[2]/div/input')
+  texto_telefonoMovilAmigoD = '23239898'
+  telefonoMovilAmigoD.send_keys texto_telefonoMovilAmigoD
+  donante = capturar(:css, 'div.radio:nth-child(1) > label:nth-child(1) > input:nth-child(1)')
+  nodonante = capturar(:css, 'div.radio:nth-child(2) > label:nth-child(1) > input:nth-child(1)')
+  donante.click
+  nodonante.click
+  donante.click
+  continuar_boton = capturar(:xpath, '//*[@id="verificacion_incucai"]')
+  continuar_boton.click
+
+  puts " Manifestación de voluntad expresa CONFIRMACÓN"
+  puts "==============================================="
+  tarjeta_confirma = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[1]/h2').text
+  texto_tarjeta_confirma = 'Confirmá los datos del formulario'
+  esIgual(texto_tarjeta_confirma, tarjeta_confirma, 'Confirmá los datos del formulario:')
+  manifestacionvoluntadexpresa = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/label/b').text
+  texto_manifestacionvoluntadexpresa = 'Manifestación de voluntad expresa'
+  esIgual(texto_manifestacionvoluntadexpresa, manifestacionvoluntadexpresa, 'Manifestación de voluntad expresa:')
+  serdonante = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[1]/div/div/p/label/b').text
+  texto_serdonante = 'Quiero ser donante'
+  esIgual(texto_serdonante, serdonante, 'Quiero ser donante:')
+  afirmativa = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[1]/div/div/p/small').text
+  texto_afirmativa = 'Manifestación afirmativa a la donación de órganos y tejidos.'
+  esIgual(texto_afirmativa, afirmativa, 'Manifestación afirmativa a la donación de órganos y tejidos.:')
+  datos_personales = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[2]/div/h3/b').text
+  texto_datos_personales = 'Datos personales'
+  esIgual(texto_datos_personales, datos_personales, 'Datos personales:')
+  datos_personales_p = capturar(:xpath , '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[2]/div/h3/small').text
+  texto_datos_personales = '(Obligatorio)'
+  esIgual(texto_datos_personales, datos_personales_p, '(Obligatorio):')
+  documento = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[1]/label').text
+  texto_documento = 'Tipo de documento'
+  esIgual(texto_documento, documento, 'Tipo de documento:')
+  contenido_documento = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[1]/p/b').text
+  texto_contenido_documento = 'DNI'
+  esIgual(texto_contenido_documento, contenido_documento, 'DNI:')
+  numero_documento = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/label').text
+  texto_numero_documento = 'Número de documento'
+  esIgual(texto_numero_documento, numero_documento, 'Número de documento:')
+  contenido_numero_documento = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[2]/p/b').text
+  texto_contenido_numero_documento = '27104266'
+  esIgual(texto_contenido_numero_documento, contenido_numero_documento, '27104266:')
+  nombre = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[3]/label').text
+  texto_nombre = 'Nombre'
+  esIgual(texto_nombre, nombre, 'Nombre:')
+  contenido_nombre = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[3]/p').text
+  texto_contenido_nombre = 'Adriana Ivonne'
+  esIgual(texto_contenido_nombre, contenido_nombre, 'Adriana Ivonne:')
+  apellido = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[4]/label').text
+  texto_apellido = 'Apellido'
+  esIgual(texto_apellido, apellido, 'Apellido:')
+  contenido_apellido = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[4]/p/b').text
+  texto_contenido_apellido = 'Lista'
+  esIgual(texto_contenido_apellido, contenido_apellido, 'Lista:')
+  sexo = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[5]/label').text
+  texto_sexo = 'Sexo'
+  esIgual(texto_sexo, sexo, 'Sexo:')
+  contenido_sexo = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[5]/p/b').text
+  texto_contenido_sexo = 'F'
+  esIgual(texto_contenido_sexo, contenido_sexo, 'F:')
+  correo_electronico = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[6]/label').text
+  texto_correo_electronico = 'Correo electrónico'
+  esIgual(texto_correo_electronico, correo_electronico, 'Correo electrónico:')
+  contenido_correo_electronico = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[6]/p/b').text
+  texto_contenido_correo_electronico = 'eaarached+003@gmail.com'
+  esIgual(texto_contenido_correo_electronico, contenido_correo_electronico, 'eaarached+003@gmail.com:')
+  fecha_nacimiento = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[7]/label').text
+  texto_fecha_nacimiento  = 'Fecha de nacimiento'
+  esIgual(texto_fecha_nacimiento, fecha_nacimiento, 'Fecha de nacimiento:')
+  contenido_fecha_nacimiento = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[7]/p/b').text
+  texto_contenido_fecha_nacimiento  = '16/04/1985'
+  esIgual(texto_contenido_fecha_nacimiento, contenido_fecha_nacimiento, '16/04/1985:')
+  stadocivil = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[8]/label').text
+  texto_stadocivil  = 'Estado civil'
+  esIgual(texto_stadocivil, stadocivil, 'Estado civil:')
+  casado = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[8]/p/b').text
+  texto_casado = 'Casado/a'
+  esIgual(texto_casado, casado, 'Casado/a:')
+  telefono_movil = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[9]/label').text
+  texto_telefono_movil  = 'Teléfono móvil'
+  esIgual(texto_telefono_movil, telefono_movil, 'Teléfono móvil:')
+  telefono_movil1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[3]/div[9]/p/b').text
+  texto_telefono_movil1  = '00321 - 1537521444'
+  esIgual(texto_telefono_movil1, telefono_movil1, '00321 - 1537521444:')
+  datos_domicilio = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[4]/div/h3').text
+  texto_datos_domicilio  = 'Datos del domicilio (Obligatorio)'
+  esIgual(texto_datos_domicilio, datos_domicilio, 'Datos del domicilio (Obligatorio):')
+  callew = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[1]/div/label').text
+  texto_callew  = 'Calle'
+  esIgual(texto_callew, callew, 'Calle:')
+  bonorino = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[1]/div/p/b').text
+  texto_bonorino  = 'Bonorino Coronel Esteban'
+  esIgual(texto_bonorino, bonorino, 'Bonorino Coronel Esteban:')
+  bonorino_numero = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[2]/div/label').text
+  texto_bonorino_numero  = 'Número'
+  esIgual(texto_bonorino_numero, bonorino_numero, 'Número:')
+  bonorino_numero1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[2]/div/p/b').text
+  texto_bonorino_numero1  = '11421'
+  esIgual(texto_bonorino_numero1, bonorino_numero1, '11421:')
+  pisos = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[4]/div/label').text
+  texto_pisos  = 'Piso (Opcional)'
+  esIgual(texto_pisos, pisos, 'Piso (Opcional):')
+  pisosnum = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[5]/div[4]/div/p/b').text
+  texto_pisosnum  = '4'
+  esIgual(texto_pisosnum, pisosnum, '4:')
+  provin = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[1]/label').text
+  texto_provin  = 'Provincia'
+  esIgual(texto_provin, provin, 'Provincia:')
+  provin1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[1]/p/b').text
+  texto_provin1  = 'JUJUY'
+  esIgual(texto_provin1, provin1, 'JUJUY:')
+  partidoDep = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[2]/label').text
+  texto_partidoDep  = 'Partido/Departamento'
+  esIgual(texto_partidoDep, partidoDep, 'Partido/Departamento:')
+  partidoDep1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[2]/p/b').text
+  texto_partidoDep1  = 'SAN PEDRO'
+  esIgual(texto_partidoDep1, partidoDep1, 'SAN PEDRO:')
+  localidad_de = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[3]/label').text
+  texto_localidad_de  = 'Localidad'
+  esIgual(texto_localidad_de, localidad_de, 'Localidad:')
+  localidad_de1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[3]/p/b').text
+  texto_localidad_de1  = 'LA ESPERANZA'
+  esIgual(texto_localidad_de1, localidad_de1, 'LA ESPERANZA:')
+  datos_familiar = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[4]/div/h3/b').text
+  texto_datos_familiar  = 'Datos del familiar/amigo a quien comunico mi decisión (Opcional)'
+  esIgual(texto_datos_familiar, datos_familiar, 'Datos del familiar/amigo a quien comunico mi decisión (Opcional):')
+  nombre_amigo = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[1]/label').text
+  texto_nombre_amigo  = 'Nombre del familiar/amigo'
+  esIgual(texto_nombre_amigo, nombre_amigo, 'Nombre del familiar/amigo:')
+  nombre_amigo1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[2]/p/b').text
+  texto_nombre_amigo1  = 'Aguirre Perez Guilló'
+  esIgual(texto_nombre_amigo1, nombre_amigo1, 'Aguirre Perez Guilló:')
+  vinculo_amigo = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[3]/label').text
+  texto_vinculo_amigo  = 'Vínculo'
+  esIgual(texto_vinculo_amigo, vinculo_amigo, 'Vínculo:')
+  vinculo_amigo1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[3]/p/b').text
+  texto_vinculo_amigo1  = 'La hija de un Tio que se llama'
+  esIgual(texto_vinculo_amigo1, vinculo_amigo1, 'La hija de un Tio que se llama:')
+  mailc = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[4]/label').text
+  texto_mailc  = 'Correo electrónico'
+  esIgual(texto_mailc, mailc, 'Correo electrónico:')
+  mailc1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[4]/p/b').text
+  texto_mailc1  = 'eaarached@gmail.com'
+  esIgual(texto_mailc1, mailc1, 'eaarached@gmail.com:')
+  telefonoAmigou = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[5]/div/label').text
+  texto_telefonoAmigou  = 'Teléfono móvil'
+  esIgual(texto_telefonoAmigou, telefonoAmigou, 'Teléfono móvil:')
+  telefonoAmigou1 = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[2]/div/div/div[2]/div[6]/div/form/div[5]/div/div[5]/div/p/b').text
+  texto_telefonoAmigou1  = '00321 - 1523239898'
+  esIgual(texto_telefonoAmigou1, telefonoAmigou1, '00321 - 1523239898:')
+  botn_volver = capturar(:xpath, '//*[@id="editar_incucai"]')
+  botn_volver.click
+  miArgentina_cerrar
 end
