@@ -113,5 +113,5 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
   credencialpdf = capturar(:xpath,'/html/body/img')
   puts "Se encontro credencial.pdf #{credencialpdf}"
   puts  "DESCARGAR CREDENCIAL.......................[PASSED]"
-  miArgentina_cerrar
+  menu_salir
 end

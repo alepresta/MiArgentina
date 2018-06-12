@@ -74,7 +74,7 @@ def logueo(cuit,usuario_nombre,psw)
   txtesto =  nombre_de_clase.text
   puts txtesto
   if txtesto.include? usuario_nombre
-    puts "El ingreso para #{usuario_nombre} es correcto......[PASSED]".green
+    puts "El ingreso para #{usuario_nombre} es correcto...[PASSED]".green
   else
     fail puts "El ingreso para #{usuario_nombre} es incorrecto...[ERROR]".red
   end
@@ -280,14 +280,14 @@ end
 def esIgual(texto_que_deberia_estar, texto_capturado, imprime)
   if texto_que_deberia_estar.eql?(texto_capturado)
     text = true
-    puts " #{imprime} ....................................[PASSED]"
+    puts " #{imprime} ...[PASSED]"
   else
     if texto_capturado.include? texto_que_deberia_estar
       text = true
-      puts " #{imprime} ....................................[PASSED]"
+      puts " #{imprime} ...[PASSED]"
     else
       text = false
-      fail puts " #{imprime}..................................[ERROR]"
+      fail puts " #{imprime}...[ERROR]"
     end
   end
   return text
@@ -300,14 +300,14 @@ def link_css_selector(css,link_que_deberia_ser)
   link_con_texto = link_con_texto.gsub('Abrir vínculo en nueva pestaña','')
   if link_que_deberia_ser.eql?(link_real)
     linksqs = true
-    puts " #{link_con_texto}: lleva a...(#{link_real})..[PASSED]"
+    puts " #{link_con_texto}: lleva a...(#{link_real})...[PASSED]"
   else
     if link_real.include? link_que_deberia_ser
       linksqs = true
-      puts " #{link_con_texto}: lleva a...(#{link_real})..[PASSED]"
+      puts " #{link_con_texto}: lleva a...(#{link_real})...[PASSED]"
     else
       linksqs = false
-      fail puts " #{link_con_texto}: NO lleva a...(#{link_real})..[ERROR]"
+      fail puts " #{link_con_texto}: NO lleva a...(#{link_real})...[ERROR]"
     end
   end
   return linksqs
@@ -332,9 +332,9 @@ def contar(css1, n_max)
   maxlength = maxlength.to_i
   name_prefijo =  css1.attribute("name")
   if maxlength > 0 and maxlength <= n_max
-    puts " #{name_prefijo} debe ser maxlength = (#{n_max}):  el maxlength es = #{maxlength}......................[PASSED]"
+    puts " #{name_prefijo} debe ser maxlength = (#{n_max}):  el maxlength es = #{maxlength}...[PASSED]"
     else
-    puts " #{name_prefijo} debe ser maxlength = (#{n_max}):   el maxlength es = #{maxlength}......................[ERROR]".red
+    puts " #{name_prefijo} debe ser maxlength = (#{n_max}):   el maxlength es = #{maxlength}...[ERROR]".red
   end
 end
 
@@ -343,8 +343,8 @@ def estipo?(css,tipo)
   atributo_donante = css.attribute("type")
   name_prefijo =  css.attribute("name")
   if atributo_donante == tipo
-    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"......................[PASSED]"
+    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"...[PASSED]"
   else
-    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"......................[ERROR]".red
+    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"...[ERROR]".red
   end
 end

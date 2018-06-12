@@ -39,4 +39,5 @@ Then /^Se verifica si esta presente en la sección Vacunas tarjeta Donación de 
   tarjeta_medula_osea = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[1]/div[2]/div[1]/h2').text
   texto_tarjeta_medula_osea = 'Donación de médula ósea'
   esIgual(texto_tarjeta_medula_osea, tarjeta_medula_osea, 'Tarjeta Donación de médula ósea:')
+  menu_salir
 end

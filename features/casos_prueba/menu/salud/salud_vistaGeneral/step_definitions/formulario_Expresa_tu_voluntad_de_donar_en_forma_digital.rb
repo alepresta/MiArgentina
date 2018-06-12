@@ -740,5 +740,5 @@ Then /^Verificaciones al contenido de la tarjeta de CONFIRMACIÓN$/ do
   esIgual(texto_telefonoAmigou1, telefonoAmigou1, '00321 - 1523239898:')
   botn_volver = capturar(:xpath, '//*[@id="editar_incucai"]')
   botn_volver.click
-  miArgentina_cerrar
+  menu_salir
 end
