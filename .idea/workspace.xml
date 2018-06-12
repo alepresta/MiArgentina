@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d9b0e5-6d43-4024-8735-cf57d88c8868" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Te_puede_Interesar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Te_puede_Interesar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_M_Osea.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_M_Osea.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Te_puede_Interesar.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Te_puede_Interesar.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Vacunas.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Vacunas.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Vacunas.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Vacunas.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/pages/ap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/pages/ap.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,29 +27,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tarjeta_Te_puede_Interesar.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Te_puede_Interesar.rb">
+      <file leaf-file-name="tarjeta_Vacunas.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Vacunas.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="150">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tarjeta_M_Osea.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_M_Osea.rb">
+      <file leaf-file-name="tarjeta_Vacunas.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Vacunas.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="140" selection-start-line="140" selection-end-line="141" selection-end-column="80" />
+            <state relative-caret-position="1443">
+              <caret line="116" column="3" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tarjeta_Te_puede_Interesar.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Te_puede_Interesar.feature">
+      <file leaf-file-name="ap.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/pages/ap.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="722">
+              <caret line="351" column="4" lean-forward="true" selection-start-line="351" selection-start-column="4" selection-end-line="351" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -128,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20253603144.rb" />
-        <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20258489749.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20258489749.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/features/20267047813.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/Borradores/Login_prod/step_definitions/20267047813.rb" />
@@ -174,11 +172,13 @@
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_sin_expresion_de_voluntad.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/ap.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_M_Osea.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_M_Osea.rb" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Te_puede_Interesar.feature" />
         <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Te_puede_Interesar.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/ap.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Vacunas.rb" />
+        <option value="$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Vacunas.feature" />
       </list>
     </option>
   </component>
@@ -549,7 +549,7 @@
       <workItem from="1528369315163" duration="22833000" />
       <workItem from="1528457483035" duration="14372000" />
       <workItem from="1528716249766" duration="17586000" />
-      <workItem from="1528803115738" duration="7803000" />
+      <workItem from="1528803115738" duration="14855000" />
     </task>
     <servers />
   </component>
@@ -559,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311036000" />
+    <option name="totallyTimeSpent" value="318088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,18 +765,47 @@
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20288463213.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_D_Organos.feature">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Vacunas.feature">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Te_puede_Interesar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Te_puede_Interesar.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_M_Osea.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_no_donante.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -792,17 +821,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/usuario_donante.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/salud_vistaGeneral.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_D_Organos.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+        <state relative-caret-position="782">
+          <caret line="743" column="3" lean-forward="true" selection-start-line="743" selection-start-column="3" selection-end-line="743" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -813,72 +845,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/formulario_Expresa_tu_voluntad_de_donar_en_forma_digital.rb">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_M_Osea.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11145">
-          <caret line="743" column="3" lean-forward="true" selection-start-line="743" selection-start-column="3" selection-end-line="743" selection-end-column="3" />
+        <state relative-caret-position="2100">
+          <caret line="140" selection-start-line="140" selection-end-line="141" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/ap.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="722">
+          <caret line="351" column="4" lean-forward="true" selection-start-line="351" selection-start-column="4" selection-end-line="351" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/Login/Login_Usuarios_QA/features/20288463213.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_no_donante.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="407">
+          <caret line="28" column="75" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_D_Organos.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/salud_vistaGeneral.rb">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_M_Osea.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="362">
+          <caret line="31" selection-start-line="31" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Vacunas.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/usuario_donante.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
+        <state relative-caret-position="1443">
+          <caret line="116" column="3" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Te_puede_Interesar.feature">
+    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/features/tarjeta_Vacunas.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_M_Osea.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="140" selection-start-line="140" selection-end-line="141" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/casos_prueba/menu/salud/salud_vistaGeneral/step_definitions/tarjeta_Te_puede_Interesar.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>

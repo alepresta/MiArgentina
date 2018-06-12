@@ -348,3 +348,13 @@ def estipo?(css,tipo)
     puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{tipo}\"...[ERROR]".red
   end
 end
+
+def atributo(css,type,resultado_esperado_del_type)
+  atributo_donante = css.attribute(type)
+  name_prefijo =  css.attribute("name")
+  if atributo_donante == resultado_esperado_del_type
+    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{resultado_esperado_del_type}\"...[PASSED]"
+  else
+    puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{resultado_esperado_del_type}\"...[ERROR]".red
+  end
+end
