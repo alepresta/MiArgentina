@@ -121,12 +121,11 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
     puts  "Se encuentra Código QR...[PASSED]"
   end
   menu_salir
-
 end
 
 Then /^Tarjeta donación de Médula ósea con usuario no Donante 27271042669$/ do
   menu_salud
-  tarjeta_donacion_de_medula_osean = capturar(:css, 'div.panel:nth-child(2) > div:nth-child(1) > h2:nth-child(1)').text
+  tarjeta_donacion_de_medula_osean = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[2]/div[1]').text
   texto_tarjeta_donacion_de_medula_osean = 'Donación de médula ósea'
   esIgual(texto_tarjeta_donacion_de_medula_osean,tarjeta_donacion_de_medula_osean,"#{texto_tarjeta_donacion_de_medula_osean}: ")
   sabias_que = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/h3/b').text
@@ -137,18 +136,8 @@ Then /^Tarjeta donación de Médula ósea con usuario no Donante 27271042669$/ d
   esIgual(texto_si_queres,si_queres,"#{texto_si_queres}: ")
   fa_edit =esta_este_elemento(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[2]/div[2]/div/div[1]/i')
   puts "Ícono fa fa-edit text-muted fa-2x m-t-1: [#{fa_edit}]"
-
   boton_expresa = capturar(:css, 'div.panel:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > a:nth-child(3)')
   link_css_selector(boton_expresa,'https://qa-mi.argentina.gob.ar/salud/donar-organos/formulario')
-
   link_conoce_mas = capturar(:css, 'div.panel:nth-child(2) > div:nth-child(3) > a:nth-child(1)')
   link_css_selector(link_conoce_mas,'https://www.argentina.gob.ar/donar-medula')
-
-
-
-
-
-
-
-
 end
