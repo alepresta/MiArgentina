@@ -60,6 +60,7 @@ end
   puts  "Redes Sociales Twiter y Facebook.......................[PASSED]"
   windowsGO('2147483649')
   menu_salir
+  esperar
 end
 
 Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
@@ -114,4 +115,5 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
   puts "Se encontro credencial.pdf #{credencialpdf}"
   puts  "DESCARGAR CREDENCIAL.......................[PASSED]"
   menu_salir
+  esperar
 end

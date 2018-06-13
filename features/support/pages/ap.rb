@@ -324,7 +324,8 @@ def windows
 end
 
 def windowsGO(pestania)
-  @browser.switch_to.window(pestania)
+ @browser.switch_to.window(pestania)
+
 end
 
 def contar(css1, n_max)
@@ -357,4 +358,8 @@ def atributo(css,type,resultado_esperado_del_type)
   else
     puts "Campo #{name_prefijo} es tipo: \"#{atributo_donante}\". Debe ser del tipo: \"#{resultado_esperado_del_type}\"...[ERROR]".red
   end
+end
+
+def esperar
+  @browser.manage.timeouts.implicit_wait = 3
 end

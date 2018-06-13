@@ -59,6 +59,7 @@ Then /^Se verificara la tarjeta Donación de Órganos 20258489749$/ do
   miArgentina_cerrar
   puts  "Redes Sociales Twiter y Facebook.......................[PASSED]"
   windowsGO('2147483649')
+  menu_salud
   menu_salir
 end
 
@@ -87,7 +88,7 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos 20258489749$/ do
   texto_campo_Tipo_documento = 'DNI'
   esIgual(texto_campo_Tipo_documento, campo_Tipo_documento, 'Tipo de documento:')
   campo_numero_documento = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[8]/p/b').text
-  texto_campo_numero_documento = '11026230'
+  texto_campo_numero_documento = '11.026.230'
   esIgual(texto_campo_numero_documento, campo_numero_documento, 'Número de documento:')
   boton_descargar_credencial = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div/div/div/div[3]/a').text
   texto_boton_descargar_credencial = 'DESCARGAR CREDENCIAL'
@@ -108,10 +109,12 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos 20258489749$/ do
   botona_CREDENCIAL= capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[3]/a')
   botona_CREDENCIAL.click
   @browser.switch_to.window(@browser.window_handles.last)
-  miArgentina_cerrar
   windowsGO('2147483692')
   credencialpdf = capturar(:xpath,'/html/body/img')
   puts "Se encontro credencial.pdf #{credencialpdf}"
   puts  "DESCARGAR CREDENCIAL.......................[PASSED]"
+  miArgentina_cerrar
+  windowsGO('2147483649')
+  menu_salud
   menu_salir
 end

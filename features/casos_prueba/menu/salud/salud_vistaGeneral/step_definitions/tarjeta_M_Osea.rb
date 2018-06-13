@@ -83,11 +83,22 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   texto_fecha_expresion1 = '27/08/2016'
   esIgual(texto_fecha_expresion1,fecha_expresion1,"#{texto_fecha_expresion1}: ")
   nombres  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[5]/label').text
-  texto_nombres = 'Nombres'
+  texto_nombres = 'Nombre'
   esIgual(texto_nombres,nombres,"#{texto_nombres}: ")
   nombres1  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[5]/p/b').text
   texto_nombres1 = 'HERNAN'
   esIgual(texto_nombres1,nombres1,"#{texto_nombres1}: ")
+
+  apellido  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[6]/label').text
+  texto_apellido = 'Apellido'
+  esIgual(texto_apellido,apellido,"#{texto_apellido}: ")
+
+  apellido1  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[6]/p/b').text
+  texto_apellido1 = 'CHILABERT'
+  esIgual(texto_apellido1,apellido1,"#{texto_apellido1}: ")
+
+
+
   tipo_de_documento  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[7]/label').text
   texto_tipo_de_documento = 'Tipo de documento'
   esIgual(texto_tipo_de_documento,tipo_de_documento,"#{texto_tipo_de_documento}: ")
@@ -98,7 +109,7 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   texto_numero_de_documento = 'Número de documento'
   esIgual(texto_numero_de_documento,numero_de_documento,"#{texto_numero_de_documento}: ")
   numero_de_documento1  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[8]/p/b').text
-  texto_numero_de_documento1 = '31703611'
+  texto_numero_de_documento1 = '31.703.611'
   esIgual(texto_numero_de_documento1,numero_de_documento1,"#{texto_numero_de_documento1}: ")
   provincia  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[9]/label').text
   texto_provincia = 'Provincia'
@@ -120,7 +131,9 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   if codigoQR  == true
     puts  "Se encuentra Código QR...[PASSED]"
   end
+
   menu_salir
+
 end
 
 Then /^Tarjeta donación de Médula ósea con usuario no Donante 27271042669$/ do
