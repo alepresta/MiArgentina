@@ -42,6 +42,7 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   puts "======================================"
   css = capturar(:css, 'div.panel:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)')
   link_css_selector(css,'https://qa-mi.argentina.gob.ar/salud/donar-medula')
+=begin
   puts "Verificando que se pueda publicar en Redes Sociales Twiter y Facebook"
   puts "======================================"
   facebooke = capturar(:css, 'div.panel:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1) > i:nth-child(1)')
@@ -62,6 +63,7 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   miArgentina_cerrar
   puts  "Redes Sociales Twiter y Facebook...[PASSED]"
   windowsGO('2147483649')
+=end
   menu_salud
   puts "Tarjeta DETALLES"
   puts "==============================="
@@ -88,17 +90,12 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   nombres1  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[5]/p/b').text
   texto_nombres1 = 'HERNAN'
   esIgual(texto_nombres1,nombres1,"#{texto_nombres1}: ")
-
   apellido  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[6]/label').text
   texto_apellido = 'Apellido'
   esIgual(texto_apellido,apellido,"#{texto_apellido}: ")
-
   apellido1  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[6]/p/b').text
   texto_apellido1 = 'CHILABERT'
   esIgual(texto_apellido1,apellido1,"#{texto_apellido1}: ")
-
-
-
   tipo_de_documento  = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[7]/label').text
   texto_tipo_de_documento = 'Tipo de documento'
   esIgual(texto_tipo_de_documento,tipo_de_documento,"#{texto_tipo_de_documento}: ")

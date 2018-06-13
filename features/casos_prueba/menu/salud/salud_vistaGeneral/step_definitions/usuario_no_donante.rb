@@ -39,6 +39,7 @@ Then /^Se verificara la tarjeta Donación de Órganos 20258489749$/ do
   puts "======================================"
   css = capturar(:css, '.col-sm-5 > a:nth-child(1)')
   link_css_selector(css,'https://qa-mi.argentina.gob.ar/salud/donar-organos')
+=begin
   puts "Verificando que se pueda publicar en Redes Sociales Twiter y Facebook"
   puts "======================================"
   facebooke = capturar(:css, 'ul.list-inline:nth-child(1) > li:nth-child(1) > a:nth-child(1) > i:nth-child(1)')
@@ -59,6 +60,7 @@ Then /^Se verificara la tarjeta Donación de Órganos 20258489749$/ do
   miArgentina_cerrar
   puts  "Redes Sociales Twiter y Facebook.......................[PASSED]"
   windowsGO('2147483649')
+=end
   menu_salud
   menu_salir
 end
@@ -104,6 +106,7 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos 20258489749$/ do
   qr = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/canvas')
   puts "Código QR: #{qr} "
   puts  "Código QR.......................[PASSED]"
+=begin
   puts "Verificando DESCARGAR CREDENCIAL"
   puts "=================================="
   botona_CREDENCIAL= capturar(:xpath, '/html/body/main/section[2]/div/div/div/div/div/div/div[3]/a')
@@ -115,6 +118,7 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos 20258489749$/ do
   puts  "DESCARGAR CREDENCIAL.......................[PASSED]"
   miArgentina_cerrar
   windowsGO('2147483649')
+=end
   menu_salud
   menu_salir
 end
