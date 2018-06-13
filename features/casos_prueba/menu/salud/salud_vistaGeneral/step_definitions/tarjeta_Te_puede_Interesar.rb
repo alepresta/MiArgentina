@@ -1,6 +1,9 @@
 
 Then /^Verificar la tarjeta Te puede interesar para el CUIL 20288463213$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   tarjeta_te_puede_interesar = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[3]/div/h2').text
   texto_tarjeta_te_puede_interesar = 'Te puede interesar'
   esIgual(texto_tarjeta_te_puede_interesar,tarjeta_te_puede_interesar, "#{texto_tarjeta_te_puede_interesar}:" )
@@ -19,4 +22,6 @@ Then /^Verificar la tarjeta Te puede interesar para el CUIL 20288463213$/ do
   recomendaciones_embarazo = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[3]/div/div[3]/div/p').text
   texto_recomendaciones_embarazo = 'Recomendaciones para el embarazo, parto, puerperio, lactancia y crianza.'
   esIgual(texto_recomendaciones_embarazo,recomendaciones_embarazo, "#{texto_recomendaciones_embarazo}:" )
+  menu_salud
+  menu_salir
 end

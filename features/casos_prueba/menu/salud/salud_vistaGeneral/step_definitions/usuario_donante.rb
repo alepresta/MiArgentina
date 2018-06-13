@@ -1,6 +1,9 @@
 
 Then /^Se verificara la tarjeta Donación de Órganos$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   puts "Verificando textos"
   puts "==================="
   tarjeta_donacion_organos = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[1]/h2').text
@@ -61,11 +64,14 @@ end
   puts  "Redes Sociales Twiter y Facebook.......................[PASSED]"
   windowsGO('2147483649')
 =end
+  menu_salud
   menu_salir
-  esperar
 end
 
 Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
   menu_salud
   puts "Verificando Textos y campos de Tarjeta Detalles"
   puts "================================================="
@@ -120,6 +126,5 @@ Then /^Se verificara la tarjeta Detalles Donación de Órganos$/ do
   windowsGO('2147483649')
 =end
   menu_salud
-  menu_credenciales
   menu_salir
 end

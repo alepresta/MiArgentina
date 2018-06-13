@@ -1,6 +1,9 @@
 
 Then /^Verificaciones Formulario Expresá tu voluntad de donar en forma digital$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   ir_formulario = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/a')
   ir_formulario.click
   puts "Verificando que este el Formulario Expresá tu voluntad de donar en forma digital"
@@ -546,6 +549,9 @@ end
 
 Then /^Verificaciones al contenido de la tarjeta de CONFIRMACIÓN$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/a').click
   capturar(:css , '#estado_civil > select:nth-child(2) > option:nth-child(3)').click
   prefijoTelefonoMovil = capturar(:css , '#telefono_movil_0 > input:nth-child(2)')
@@ -740,5 +746,6 @@ Then /^Verificaciones al contenido de la tarjeta de CONFIRMACIÓN$/ do
   esIgual(texto_telefonoAmigou1, telefonoAmigou1, '00321 - 1523239898:')
   botn_volver = capturar(:xpath, '//*[@id="editar_incucai"]')
   botn_volver.click
+  menu_salud
   menu_salir
 end

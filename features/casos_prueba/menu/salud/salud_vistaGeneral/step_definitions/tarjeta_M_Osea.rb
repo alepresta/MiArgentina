@@ -2,6 +2,9 @@
 
 Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   puts "Tarjeta Donación de médula ósea"
   puts "==============================="
   tarjeta_medula = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[2]/div[1]/h2').text
@@ -64,6 +67,9 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   puts  "Redes Sociales Twiter y Facebook...[PASSED]"
   windowsGO('2147483649')
 =end
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
   menu_salud
   puts "Tarjeta DETALLES"
   puts "==============================="
@@ -128,12 +134,12 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   if codigoQR  == true
     puts  "Se encuentra Código QR...[PASSED]"
   end
-
+  menu_salud
   menu_salir
-
 end
 
 Then /^Tarjeta donación de Médula ósea con usuario no Donante 27271042669$/ do
+  menu_salud
   menu_salud
   tarjeta_donacion_de_medula_osean = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[2]/div[1]').text
   texto_tarjeta_donacion_de_medula_osean = 'Donación de médula ósea'
@@ -150,4 +156,6 @@ Then /^Tarjeta donación de Médula ósea con usuario no Donante 27271042669$/ d
   link_css_selector(boton_expresa,'https://qa-mi.argentina.gob.ar/salud/donar-organos/formulario')
   link_conoce_mas = capturar(:css, 'div.panel:nth-child(2) > div:nth-child(3) > a:nth-child(1)')
   link_css_selector(link_conoce_mas,'https://www.argentina.gob.ar/donar-medula')
+  menu_salud
+  menu_salir
 end

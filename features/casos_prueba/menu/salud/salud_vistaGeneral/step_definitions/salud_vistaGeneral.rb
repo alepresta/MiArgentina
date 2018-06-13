@@ -1,5 +1,8 @@
 Then /^Se verifican los textos de bajada y pie de sección Salud$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   titulo_que_deberia_estar = 'Salud'
   titulo_capturado = capturar(:xpath, '/html/body/main/section[2]/div/div/div/h1').text
   bajada_descripcion_que_deberia_estar = 'Expresá tu voluntad de donar órganos y médula ósea. Si ya lo hiciste, podés consultar tus credenciales. También podés completar tu perfil para recibir notificaciones personalizadas con consejos para cuidar tu salud y prevenir enfermedades.'
@@ -39,5 +42,6 @@ Then /^Se verifica si esta presente en la sección Vacunas tarjeta Donación de 
   tarjeta_medula_osea = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[1]/div[2]/div[1]/h2').text
   texto_tarjeta_medula_osea = 'Donación de médula ósea'
   esIgual(texto_tarjeta_medula_osea, tarjeta_medula_osea, 'Tarjeta Donación de médula ósea:')
+  menu_salud
   menu_salir
 end

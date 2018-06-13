@@ -1,6 +1,9 @@
 
 Then /^Se verificara la tarjeta Donación de Órganos con usuario sin expresión Donar 27271042669$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   puts "Verificando textos"
   puts "==================="
   tarjeta_donacion_organos = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[1]/h2').text
@@ -26,6 +29,7 @@ Then /^Se verificara la tarjeta Donación de Órganos con usuario sin expresión
   puts "Verificando Botón EXPRESÁ TU VOLUNTAD EN FORMA DIGITAL"
   puts "======================================================="
   link_css_selector(boton_Expresa,'https://qa-mi.argentina.gob.ar/salud/donar-organos/formulario')
+  menu_salud
   menu_salir
 end
 

@@ -1,7 +1,10 @@
 
 
 Then /^Verificar la tarjeta Vacunas Hombre CUIL 20288463213$/ do
- menu_salud
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
  tarjeta_vacunas = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[2]/div/h2').text
  text_tarjeta_vacunas = 'Vacunas'
   esIgual(text_tarjeta_vacunas, tarjeta_vacunas, "#{text_tarjeta_vacunas}: ")
@@ -50,12 +53,16 @@ esIgual(text_conoce_parrafo, conoce_parrafo, "#{text_conoce_parrafo}")
  if icono_arg_vacunas  == true
    puts  "icono-arg-vacunas...[PASSED]"
  end
-  menu_salir
+ menu_salud
+ menu_salir
 end
 
 
 
 Then /^Verificar la tarjeta Vacunas Mujer CUIL 20258489749$/ do
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
   menu_salud
   tarjeta_vacunas = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[2]/div/h2').text
   text_tarjeta_vacunas = 'Vacunas'
@@ -114,4 +121,6 @@ Then /^Verificar la tarjeta Vacunas Mujer CUIL 20258489749$/ do
   if icono_arg_vacunasn  == true
     puts  "icono-arg-vacunas...[PASSED]"
   end
+  menu_salud
+  menu_salir
 end

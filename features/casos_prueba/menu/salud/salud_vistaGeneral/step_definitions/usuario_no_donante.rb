@@ -1,6 +1,9 @@
 
 Then /^Se verificara la tarjeta Donación de Órganos 20258489749$/ do
   menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_salud
   puts "Verificando textos"
   puts "==================="
   tarjeta_donacion_organos = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[1]/h2').text
@@ -66,6 +69,9 @@ Then /^Se verificara la tarjeta Donación de Órganos 20258489749$/ do
 end
 
 Then /^Se verificara la tarjeta Detalles Donación de Órganos 20258489749$/ do
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
   menu_salud
   puts "Verificando Textos y campos de Tarjeta Detalles"
   puts "================================================="

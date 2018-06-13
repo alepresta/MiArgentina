@@ -8,7 +8,7 @@ Feature: tarjeta_D_Organos
 
   El objetivo de esta prueba es que: La tarjeta donacion de órganos y tejidos este probada en todas sus posibles formas.
 
-  @tarjeta_D_Organos
+  @tarjeta_D_Organos @salud
   Scenario:
 
     Given Ingresar a QA con CUIL 20172243259
