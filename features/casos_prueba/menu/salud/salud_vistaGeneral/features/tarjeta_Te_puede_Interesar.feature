@@ -5,7 +5,7 @@ Feature: tarjeta Te puede interesar
   4. Se verificará que el link Prevención y cuidados   lleve a link a https://www.argentina.gob.ar/salud/prevencionycuidados
   5. Se verificará que el link Crecer con salud   lleve a link a https://www.argentina.gob.ar/salud/crecerconsalud
 
-  @tarjeta_Te_puede_Interesar @salud
+  @tarjeta_Te_puede_Interesar
   Scenario:
     Given Ingresar a QA con CUIL 20288463213
     Then Verificar la tarjeta Te puede interesar para el CUIL 20288463213

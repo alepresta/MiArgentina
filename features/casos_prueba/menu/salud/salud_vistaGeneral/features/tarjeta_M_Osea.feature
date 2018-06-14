@@ -19,12 +19,12 @@ Feature: TARJETA DONACIÓN DE MÉDULA ÓSEA
   15  Se validará que este presente el campo Situación de la médula. y coincide con el texto: TIPIFICADO
   16  Se validará que este presente el código QR (qrcode)
 
-  @tarjeta_M_Osea @salud
+  @tarjeta_M_Osea
   Scenario: Tarjeta donación de Médula ósea con usuario Donante
     Given Ingresar a QA con CUIL 20288463213
     Then Tarjeta donación de Médula ósea con usuario Donante 20288463213
 
-  @tarjeta_M_Osea @salud
+  @tarjeta_M_Osea
   Scenario: Tarjeta donación de Médula ósea con usuario no Donante
     Given Ingresar a QA con CUIL 27271042669
     Then Tarjeta donación de Médula ósea con usuario no Donante 27271042669

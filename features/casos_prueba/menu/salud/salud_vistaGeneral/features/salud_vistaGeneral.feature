@@ -12,7 +12,7 @@ Feature: En este Cp se verificara la sección Salud
   Debe estar la tarjeta Donación de Órganos y Tejidos
   Debe estar la tarjeta Donación de médula ósea
 
-  @salud_vistaGeneral @salud
+  @salud_vistaGeneral
   Scenario:
     Given Ingresar a QA con CUIL 20172243259
     Then  Se verifican los textos de bajada y pie de sección Salud

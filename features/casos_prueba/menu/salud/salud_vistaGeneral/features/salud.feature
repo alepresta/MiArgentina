@@ -121,7 +121,7 @@ Feature: salud
 
   Cada cp tiene su explicación de ejecución en el link del mismo
 
-
+  @salud
   Scenario: Salud
 
     Given Ingresar a QA con CUIL 20172243259
@@ -170,8 +170,7 @@ Feature: salud
     Given Ingresar a QA con CUIL 20258489749
     Then Verificar la tarjeta Vacunas Mujer CUIL 20258489749
 
-
-
+    Then cerrar la sesión
 
 
 

@@ -9,12 +9,12 @@ Feature: Tarjeta Vacunas
   6. Se verificará que el link Conocé todas las vacunas   lleve a https://www.argentina.gob.ar/salud/vacunas
   7. Se verificará que el link fecha de nacimiento  lleve a https://qa-id.argentina.gob.ar/perfil/
 
-  @tarjeta_Vacunas @salud
+  @tarjeta_Vacunas
   Scenario:
     Given Ingresar a QA con CUIL 20288463213
     Then Verificar la tarjeta Vacunas Hombre CUIL 20288463213
 
-  @tarjeta_Vacunas @salud
+  @tarjeta_Vacunas
   Scenario:
     Given Ingresar a QA con CUIL 20258489749
     Then Verificar la tarjeta Vacunas Mujer CUIL 20258489749
