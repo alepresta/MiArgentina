@@ -4,6 +4,20 @@ Then /^Tarjeta donación de Médula ósea con usuario Donante 20288463213$/ do
   menu_salud
   menu_credenciales
   menu_discapacidad
+  #menu_configurarMiCuenta
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_inicio
+  menu_turnos
+  menu_perfilConductor
+  menu_formacion
+  #menu_datosBasicos
+  #menu_datosOpcionales
+  #menu_misVehiculos
+  #menu_misDispositivos
+  #menu_redesSociales
+  menu_configurarNotificaciones
   menu_salud
   puts "Tarjeta Donación de médula ósea"
   puts "==============================="

@@ -3,6 +3,20 @@ Then /^Se verificara la tarjeta Donación de Órganos con usuario sin expresión
   menu_salud
   menu_credenciales
   menu_discapacidad
+  ##menu_configurarMiCuenta
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_inicio
+  menu_turnos
+  menu_perfilConductor
+  menu_formacion
+  ##menu_datosBasicos
+  ##menu_datosOpcionales
+  ##menu_misVehiculos
+  ##menu_misDispositivos
+  ##menu_redesSociales
+  menu_configurarNotificaciones
   menu_salud
   puts "Verificando textos"
   puts "==================="

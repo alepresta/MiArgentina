@@ -121,7 +121,7 @@ Feature: salud
 
   Cada cp tiene su explicación de ejecución en el link del mismo
 
-  @salud
+
   Scenario: Salud
 
     Given Ingresar a QA con CUIL 20172243259
@@ -130,8 +130,6 @@ Feature: salud
     Then  Se verifica si esta presente en la sección Vacunas tarjeta Te puede interesar
     Then  Se verifica si esta presente en la sección Vacunas tarjeta Donación de Órganos y Tejidos
     Then  Se verifica si esta presente en la sección Vacunas tarjeta Donación de médula ósea
-
-
 
     Given Ingresar a QA con CUIL 20172243259
     Then Se verificara la tarjeta Donación de Órganos
@@ -150,22 +148,17 @@ Feature: salud
     Then Verificaciones Formulario Expresá tu voluntad de donar en forma digital
     Then Verificaciones al contenido de la tarjeta de CONFIRMACIÓN
 
-
     Given Ingresar a QA con CUIL 20288463213
     Then Tarjeta donación de Médula ósea con usuario Donante 20288463213
-
 
     Given Ingresar a QA con CUIL 27271042669
     Then Tarjeta donación de Médula ósea con usuario no Donante 27271042669
 
-
     Given Ingresar a QA con CUIL 20288463213
     Then Verificar la tarjeta Te puede interesar para el CUIL 20288463213
 
-
     Given Ingresar a QA con CUIL 20288463213
     Then Verificar la tarjeta Vacunas Hombre CUIL 20288463213
-
 
     Given Ingresar a QA con CUIL 20258489749
     Then Verificar la tarjeta Vacunas Mujer CUIL 20258489749

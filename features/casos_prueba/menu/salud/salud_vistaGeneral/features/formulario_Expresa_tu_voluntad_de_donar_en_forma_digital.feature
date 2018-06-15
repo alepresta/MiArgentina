@@ -51,7 +51,7 @@ Feature: En este Cp se verificara el formulario Expresá tu voluntad de donar en
   Verificar que este el campo “Teléfono móvil” coincida con lo ingresado en el formulario
   Verificar que esté el  botón “VOLVER” y que se vuelva a la instancia anterior para modificar algo y CANCELAR
 
-  @formulario_Expresa_tu_voluntad_de_donar_en_forma_digital
+  @formulario_Expresa_tu_voluntad_de_donar_en_forma_digital    @salud
   Scenario:
     Given Ingresar a QA con CUIL 27271042669
     Then Verificaciones Formulario Expresá tu voluntad de donar en forma digital

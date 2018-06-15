@@ -2,6 +2,20 @@ Then /^Se verifican los textos de bajada y pie de sección Salud$/ do
   menu_salud
   menu_credenciales
   menu_discapacidad
+  #menu_configurarMiCuenta
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_inicio
+  menu_turnos
+  menu_perfilConductor
+  menu_formacion
+  #menu_datosBasicos
+  #menu_datosOpcionales
+  #menu_misVehiculos
+  #menu_misDispositivos
+  #menu_redesSociales
+  menu_configurarNotificaciones
   menu_salud
   titulo_que_deberia_estar = 'Salud'
   titulo_capturado = capturar(:xpath, '/html/body/main/section[2]/div/div/div/h1').text

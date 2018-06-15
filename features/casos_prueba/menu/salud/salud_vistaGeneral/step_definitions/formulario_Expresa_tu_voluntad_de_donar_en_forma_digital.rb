@@ -3,6 +3,20 @@ Then /^Verificaciones Formulario Expresá tu voluntad de donar en forma digital$
   menu_salud
   menu_credenciales
   menu_discapacidad
+  #menu_configurarMiCuenta
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_inicio
+  menu_turnos
+  menu_perfilConductor
+  menu_formacion
+  #menu_datosBasicos
+  #menu_datosOpcionales
+  #menu_misVehiculos
+  #menu_misDispositivos
+  #menu_redesSociales
+  menu_configurarNotificaciones
   menu_salud
   ir_formulario = capturar(:xpath, '/html/body/main/section[2]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/a')
   ir_formulario.click
@@ -537,9 +551,9 @@ obligatoriedad_alerta_icono = esta_este_elemento(:css , '.fa-exclamation-circle'
   n_max = 16
  contar(telefonoMovilAmigoD, n_max)
   donante = capturar(:css, 'div.radio:nth-child(1) > label:nth-child(1) > input:nth-child(1)')
-  estipo?(donante,'radio')
+  esradio?(donante,'radio')
   nodonante = capturar(:css, 'div.radio:nth-child(2) > label:nth-child(1) > input:nth-child(1)')
-  estipo?(nodonante,'radio')
+  esradio?(nodonante,'radio')
   donante.click
   nodonante.click
   donante.click

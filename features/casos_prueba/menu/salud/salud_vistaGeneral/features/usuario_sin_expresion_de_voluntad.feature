@@ -11,7 +11,7 @@ Feature: En este Cp se verificara la tarjeta Donacion de órganos y tejidos con 
   Esté presente el link Conocé más sobre la donación de órganos y tejidos  (https://www.argentina.gob.ar/donar-organos)
 
 
-  @usuario_sin_expresion_de_voluntad
+  @usuario_sin_expresion_de_voluntad @salud
   Scenario:
     Given Ingresar a QA con CUIL 27271042669
     Then Se verificara la tarjeta Donación de Órganos con usuario sin expresión Donar 27271042669

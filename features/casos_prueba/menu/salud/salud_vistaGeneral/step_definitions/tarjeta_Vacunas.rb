@@ -63,6 +63,20 @@ Then /^Verificar la tarjeta Vacunas Mujer CUIL 20258489749$/ do
   menu_salud
   menu_credenciales
   menu_discapacidad
+  #menu_configurarMiCuenta
+  menu_salud
+  menu_credenciales
+  menu_discapacidad
+  menu_inicio
+  menu_turnos
+  menu_perfilConductor
+  menu_formacion
+  #menu_datosBasicos
+  #menu_datosOpcionales
+  #menu_misVehiculos
+  #menu_misDispositivos
+  #menu_redesSociales
+  menu_configurarNotificaciones
   menu_salud
   tarjeta_vacunas = capturar(:xpath,'/html/body/main/section[2]/div/div/div/div[2]/div/h2').text
   text_tarjeta_vacunas = 'Vacunas'

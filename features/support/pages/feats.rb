@@ -145,7 +145,7 @@ def contar(css1, n_max)
 end
 
 
-def estipo?(css,tipo)
+def esradio?(css,tipo)
   atributo_donante = css.attribute("type")
   name_prefijo =  css.attribute("name")
   if atributo_donante == tipo
